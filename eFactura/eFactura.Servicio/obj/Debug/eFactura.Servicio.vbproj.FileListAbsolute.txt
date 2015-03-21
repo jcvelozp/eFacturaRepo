@@ -20,3 +20,7 @@ C:\SRI\eFactura\eFactura.Servicio\obj\Debug\eFactura.Servicio.exe
 C:\SRI\eFactura\eFactura.Servicio\obj\Debug\eFactura.Servicio.xml
 C:\SRI\eFactura\eFactura.Servicio\obj\Debug\eFactura.Servicio.pdb
 C:\SRI\eFactura\eFactura.Servicio\bin\Debug\MySql.Data.dll
+C:\SRI\eFacturaRepo\eFactura\eFactura.Servicio\bin\Debug\eFactura.Servicio.exe.config
+C:\SRI\eFacturaRepo\eFactura\eFactura.Servicio\obj\Debug\eFactura.Servicio.exe
+C:\SRI\eFacturaRepo\eFactura\eFactura.Servicio\obj\Debug\eFactura.Servicio.xml
+C:\SRI\eFacturaRepo\eFactura\eFactura.Servicio\obj\Debug\eFactura.Servicio.pdb

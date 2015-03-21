@@ -1,4 +1,5 @@
 ﻿Imports System.Xml
+Imports ReportUtilities
 
 Module Datos
     Public usuarios As String
@@ -41,6 +42,7 @@ Module Datos
             Next
         Catch ex As Exception
             Console.WriteLine(ex.GetType.ToString & vbNewLine & ex.Message.ToString)
+            Logs.WriteErrorLog(ex)
         Finally
         End Try
     End Sub

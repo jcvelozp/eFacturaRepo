@@ -6,7 +6,7 @@ Public Class basXML
     Dim con As New MySqlConnection
     Dim cmd As New MySqlCommand
     Dim reader As MySqlDataReader
-    Dim ds As DataSet
+    Dim ds As Data.DataSet
     Dim adapter As MySqlDataAdapter
     Dim prm As MySqlParameter
     Dim cls As New ClsConexion
@@ -24,7 +24,7 @@ Public Class basXML
 
 
     Public Function consultaDatos(ByVal empresa As Integer, ByVal ambiente As Integer, ByVal emision As Integer, ByVal tipodoc As String, ByVal codNum As String, ByVal seqCompte As String, ByVal digVerif As Integer) As DataSet
-        Dim cadena As String
+        Dim cadena As String = ""
         'Dim prm As OracleParameter
         Try
             con = cls.GetConexion()
@@ -62,36 +62,35 @@ Public Class basXML
                 cadena = cadena & " e.contespecial, e.obligaconta, c.tipo_id_cliente, c.razons_cliente, id_cliente, tipo_comp_modifica, num_comp_modifica, fec_comp_modifica"
             End If
             adapter.SelectCommand.CommandText = cadena
-            ds = New DataSet
+            ds = New Data.DataSet
             adapter.Fill(ds)
             con.Close()
         Catch ex As Exception
-            ' MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & cadena, True)
         End Try
         Return ds
     End Function
 
     Public Function cambiarEstadoClaveContingencia(sClave) As Boolean
+        Dim sql As String = ""
         Try
-            Dim sql As String
-
             cls.AbrirConexion()
             con = cls.GetConexion()
             cmd.CommandType = System.Data.CommandType.Text
-            sql = "update claves_contingencia set estado='P' where clave='" & sClave & "' "
-            cmd.CommandText = sql
+            Sql = "update claves_contingencia set estado='P' where clave='" & sClave & "' "
+            cmd.CommandText = Sql
             cmd.Connection = con
             cmd.ExecuteNonQuery()
             cls.CerrarConexion()
             Return True
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & Sql, True)
             Return False
         End Try
     End Function
     Public Function consultaDatosDet(ByVal empresa As Integer, ByVal ambiente As Integer, ByVal emision As Integer, ByVal tipodoc As String, ByVal codNum As String, ByVal seqCompte As String, ByVal digVerif As Integer) As DataSet
-        Dim cadena As String
-        'Dim prm As OracleParameter
+        Dim cadena As String = ""
         Try
             con = cls.GetConexion()
             cls.AbrirConexion()
@@ -119,31 +118,35 @@ Public Class basXML
             con.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & cadena, True)
         End Try
         Return ds
     End Function
     Public Function ConsultarEmpresa() As DataSet
+        Dim sql As String = ""
         Try
+            sql = "select codigo, razonSocial nombre from info_empresa"
             con = cls.GetConexion()
             cls.AbrirConexion()
             adapter = New MySqlDataAdapter
             adapter.SelectCommand = New MySqlCommand
             adapter.SelectCommand.Connection = con
             adapter.SelectCommand.CommandType = CommandType.Text
-            adapter.SelectCommand.CommandText = "select codigo, razonSocial nombre from info_empresa"
+            adapter.SelectCommand.CommandText = sql
 
             ds = New DataSet
             adapter.Fill(ds)
             con.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
         End Try
         Return ds
     End Function
 
     Public Function consDocASubir(ByVal empresa As Integer, ByVal tipodoc As String) As DataSet
+        Dim cadena As String = ""
         Try
-            Dim cadena As String
             con = cls.GetConexion()
             cls.AbrirConexion()
             adapter = New MySqlDataAdapter
@@ -162,14 +165,14 @@ Public Class basXML
             adapter.Fill(ds)
             con.Close()
         Catch ex As Exception
-            'MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & cadena, True)
         End Try
         Return ds
     End Function
 
     Public Function consError(ByVal tipodoc As String) As DataSet
+        Dim cadena As String = ""
         Try
-            Dim cadena As String
             con = cls.GetConexion()
             cls.AbrirConexion()
             adapter = New MySqlDataAdapter
@@ -179,98 +182,107 @@ Public Class basXML
             cadena = "SELECT sec_cab Documento, if(tipo_error='A','Autorizacion','Recepcion') tipo, error FROM log_error where tipo_doc='" & tipodoc & "' order by secuencia desc"
             'cadena = "SELECT c.secuencia, C.NUM_DOC NUMERO, C.TIPO_DOC TIPO, C.ESTABLECIMIENTO ESTABLECIMIENTO,  C.PTO_EMISION PTO_EMISION, FECHA, RAZONS_CLIENTE CLIENTE, EMPRESA, c.cod_cliente_int FROM cab_documento c WHERE estado='A' AND C.EMPRESA='" & empresa & "' AND TIPO_DOC='" & tipodoc & "'"
             adapter.SelectCommand.CommandText = cadena
-
             ds = New DataSet
             adapter.Fill(ds)
             con.Close()
         Catch ex As Exception
-            'MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & cadena, True)
         End Try
         Return ds
     End Function
 
 
     Public Function consultaParametro(ByVal empresa As String) As DataSet
+        Dim sql As String = ""
         Try
+            sql = "select * from info_empresa where codigo='" & empresa & "'"
             con = cls.GetConexion()
             cls.AbrirConexion()
             adapter = New MySqlDataAdapter
             adapter.SelectCommand = New MySqlCommand
             adapter.SelectCommand.Connection = con
             adapter.SelectCommand.CommandType = CommandType.Text
-            adapter.SelectCommand.CommandText = "select * from info_empresa where codigo='" & empresa & "'"
-
+            adapter.SelectCommand.CommandText = sql
             ds = New DataSet
             adapter.Fill(ds)
             con.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
         End Try
         Return ds
     End Function
 
     Public Function consTipoEmision() As DataSet
+        Dim sql As String = ""
         Try
+            sql = "SELECT codigo, descripcion nombre FROM tipo_emision"
             con = cls.GetConexion()
             cls.AbrirConexion()
             adapter = New MySqlDataAdapter
             adapter.SelectCommand = New MySqlCommand
             adapter.SelectCommand.Connection = con
             adapter.SelectCommand.CommandType = CommandType.Text
-            adapter.SelectCommand.CommandText = "SELECT codigo, descripcion nombre FROM tipo_emision"
-
+            adapter.SelectCommand.CommandText = sql
             ds = New DataSet
             adapter.Fill(ds)
             con.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
         End Try
         Return ds
     End Function
 
     Public Function consAmbiente() As DataSet
+        Dim sql As String = ""
         Try
+            sql = "SELECT codigo, descripcion nombre FROM ambiente"
             con = cls.GetConexion()
             cls.AbrirConexion()
             adapter = New MySqlDataAdapter
             adapter.SelectCommand = New MySqlCommand
             adapter.SelectCommand.Connection = con
             adapter.SelectCommand.CommandType = CommandType.Text
-            adapter.SelectCommand.CommandText = "SELECT codigo, descripcion nombre FROM ambiente"
+            adapter.SelectCommand.CommandText = sql
 
             ds = New DataSet
             adapter.Fill(ds)
             con.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
         End Try
         Return ds
     End Function
 
     Public Function ConsultarTipoDoc() As DataSet
+        Dim sql As String = ""
         Try
+            sql = "SELECT codigo, nombre FROM tipo_documento"
             con = cls.GetConexion()
             cls.AbrirConexion()
             adapter = New MySqlDataAdapter
             adapter.SelectCommand = New MySqlCommand
             adapter.SelectCommand.Connection = con
             adapter.SelectCommand.CommandType = CommandType.Text
-            adapter.SelectCommand.CommandText = "SELECT codigo, nombre FROM tipo_documento"
+            adapter.SelectCommand.CommandText = sql
 
             ds = New DataSet
             adapter.Fill(ds)
             con.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
         End Try
         Return ds
     End Function
 
     Public Function insertarDocumento(secuencia As Integer, tipodoc As String, cliente As String, vNombreArchivo As String, numAutoriza As String, claveAcceso As String, RUC As String) As Boolean
         Dim frmConfig As New ReportUtilities.FrmConfiguraciones
-
+        Dim sql As String = ""
         Try
-            Dim sql As String
+
             Dim interfaz As New ReportUtilities.Interfaz
 
             cls.AbrirConexion()
@@ -288,17 +300,16 @@ Public Class basXML
             Return True
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
             Return False
         End Try
     End Function
 
     Public Function borrarDocumento(secuencia As Integer, tipodoc As String, cliente As String) As Boolean
         Dim frmConfig As New ReportUtilities.FrmConfiguraciones
-
+        Dim sql As String = ""
         Try
-            Dim sql As String
             Dim interfaz As New ReportUtilities.Interfaz
-
             cls.AbrirConexion()
             con = cls.GetConexion()
             cmd.CommandType = System.Data.CommandType.Text
@@ -306,21 +317,19 @@ Public Class basXML
             cmd.CommandText = sql
             cmd.Connection = con
             cmd.ExecuteNonQuery()
-
             Return True
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
             Return False
         End Try
     End Function
 
     Public Function insertarLogMail(secuencia As Integer, tipodoc As String, RUC As String, mail As String) As Boolean
         Dim frmConfig As New ReportUtilities.FrmConfiguraciones
-
+        Dim sql As String = ""
         Try
-            Dim sql As String
             Dim interfaz As New ReportUtilities.Interfaz
-
             cls.AbrirConexion()
             con = cls.GetConexion()
             cmd.CommandType = System.Data.CommandType.Text
@@ -333,142 +342,153 @@ Public Class basXML
             Return True
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
             Return False
         End Try
     End Function
 
 
     Public Function actualizaDocumento(secuencia As String, tipodoc As String, numAutoriza As String, fecAutoriza As String) As Boolean
+        Dim sql As String = ""
         Try
-            Dim sql As String
-
             cls.AbrirConexion()
             con = cls.GetConexion()
             cmd.CommandType = System.Data.CommandType.Text
-            sql = "update documentos set num_autoriza='" & numAutoriza & "', fecha_autoriza='" & fecAutoriza & "' where sec_cab_doc='" & secuencia & "' and tipo_doc='" & tipodoc & "' "
-            cmd.CommandText = sql
+            Sql = "update documentos set num_autoriza='" & numAutoriza & "', fecha_autoriza='" & fecAutoriza & "' where sec_cab_doc='" & secuencia & "' and tipo_doc='" & tipodoc & "' "
+            cmd.CommandText = Sql
             cmd.Connection = con
             cmd.ExecuteNonQuery()
             cls.CerrarConexion()
             Return True
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
             Return False
         End Try
     End Function
 
     Public Function actualizaEstado(pSecuencia As String, pTipodoc As String) As Boolean
+        Dim sql As String = ""
         Try
-            Dim sql As String
-
             cls.AbrirConexion()
             con = cls.GetConexion()
             cmd.CommandType = System.Data.CommandType.Text
-            sql = "update cab_documento set estado='V' where secuencia='" & pSecuencia & "' and tipo_doc='" & pTipodoc & "' "
-            cmd.CommandText = sql
+            Sql = "update cab_documento set estado='V' where secuencia='" & pSecuencia & "' and tipo_doc='" & pTipodoc & "' "
+            cmd.CommandText = Sql
             cmd.Connection = con
             cmd.ExecuteNonQuery()
             cls.CerrarConexion()
             Return True
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & Sql, True)
             Return False
         End Try
     End Function
 
     Public Function logError(secuencia As String, tipodoc As String, tipoError As String, verror As String) As Boolean
+        Dim sql As String = ""
         Try
-            Dim sql As String
-
             cls.AbrirConexion()
             con = cls.GetConexion()
             cmd.CommandType = System.Data.CommandType.Text
-            sql = "insert into log_error(sec_cab, tipo_doc, tipo_error, error, fecha) values(" & secuencia & ",'" & tipodoc & "','" & tipoError & "','" & verror & "','" & DateTime.Now & "')"
-            cmd.CommandText = sql
+            Sql = "insert into log_error(sec_cab, tipo_doc, tipo_error, error) values(" & secuencia & ",'" & tipodoc & "','" & tipoError & "','" & verror & "')"
+            cmd.CommandText = Sql
             cmd.Connection = cls.GetConexion
             cmd.ExecuteNonQuery()
             cls.CerrarConexion()
             Return True
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
             Return False
         End Try
     End Function
 
 
     Public Function verificaDocumento(secuencia, tipodoc, cliente, ruta, rutaAutoriza) As DataSet
+        Dim sql As String = ""
         Try
             con = cls.GetConexion()
             cls.AbrirConexion()
-
+            sql = "SELECT * from documentos where sec_cab_doc='" & secuencia & "' and tipo_doc='" & tipodoc & "' and num_autoriza <> ''"
             adapter = New MySqlDataAdapter
             adapter.SelectCommand = New MySqlCommand
             adapter.SelectCommand.Connection = con
             adapter.SelectCommand.CommandType = CommandType.Text
-            adapter.SelectCommand.CommandText = "SELECT * from documentos where sec_cab_doc='" & secuencia & "' and tipo_doc='" & tipodoc & "' and num_autoriza <> ''"
-
+            adapter.SelectCommand.CommandText = sql
             ds = New DataSet
             adapter.Fill(ds)
             con.Close()
             Return ds
-
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
         End Try
+        Return Nothing
     End Function
 
 
     Public Function consClaveContingencia() As String
         Dim sClave As String = ""
+        Dim sql As String = ""
         Try
+            sql = "SELECT clave FROM claves_contingencia WHERE estado='A' limit 1"
             con = cls.GetConexion()
             cls.AbrirConexion()
-            cmd = New MySqlCommand("SELECT clave FROM claves_contingencia WHERE estado='A' limit 1")
+            cmd = New MySqlCommand(sql)
             cmd.Connection = con
             sClave = cmd.ExecuteScalar()
             con.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
         End Try
         Return sClave
     End Function
 
     Public Function consultaMailNotifica() As DataSet
+        Dim sql As String = ""
         Try
             con = cls.GetConexion()
             cls.AbrirConexion()
-
+            sql = "SELECT * from mail_error "
             adapter = New MySqlDataAdapter
             adapter.SelectCommand = New MySqlCommand
             adapter.SelectCommand.Connection = con
             adapter.SelectCommand.CommandType = CommandType.Text
-            adapter.SelectCommand.CommandText = "SELECT * from mail_error "
+            adapter.SelectCommand.CommandText = sql
             ds = New DataSet
             adapter.Fill(ds)
             con.Close()
             Return ds
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
         End Try
+        Return Nothing
     End Function
 
     Public Function consultaMailTipoDoc(tipodoc As String) As DataSet
+        Dim sql As String = ""
         Try
+            sql = "SELECT * from mail_tipo_documento where tipo_doc='" & tipodoc & "'"
             con = cls.GetConexion()
             cls.AbrirConexion()
-
             adapter = New MySqlDataAdapter
             adapter.SelectCommand = New MySqlCommand
             adapter.SelectCommand.Connection = con
             adapter.SelectCommand.CommandType = CommandType.Text
-            adapter.SelectCommand.CommandText = "SELECT * from mail_tipo_documento where tipo_doc='" & tipodoc & "'"
+            adapter.SelectCommand.CommandText = sql
             ds = New DataSet
             adapter.Fill(ds)
             con.Close()
             Return ds
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
         End Try
+        Return Nothing
     End Function
 
 End Class
