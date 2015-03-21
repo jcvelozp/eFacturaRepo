@@ -1,0 +1,81 @@
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.csprojResolveAssemblyReference.cache
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.Properties.Resources.resources
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.csproj.GenerateResource.Cache
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.pdb
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.Core.pdb
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.Core.xml
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\bin\Debug\de\ReportUtilities.Core.resources.dll
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.pdb
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\obj\Debug\RdlCompile.cache
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\obj\Debug\RdlCompile.compiled
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.FrmConfiguraciones.resources
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.dll.config
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.dll
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.Core.dll
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.dll
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.exe.config
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.exe
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.pdb
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\itextsharp.dll
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\itextsharp.pdfa.dll
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\itextsharp.xtra.dll
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.Core.dll
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.Core.pdb
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.Core.xml
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\de\ReportUtilities.Core.resources.dll
+C:\SRI\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.csprojResolveAssemblyReference.cache
+C:\SRI\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.FrmConfiguraciones.resources
+C:\SRI\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.Properties.Resources.resources
+C:\SRI\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.csproj.GenerateResource.Cache
+C:\SRI\ReportUtilities\ReportUtilities\obj\Debug\RdlCompile.cache
+C:\SRI\ReportUtilities\ReportUtilities\obj\Debug\RdlCompile.compiled
+C:\SRI\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.exe
+C:\SRI\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.pdb
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.exe.config
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.exe
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.pdb
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\bin\Debug\itextsharp.dll
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\bin\Debug\itextsharp.pdfa.dll
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\bin\Debug\itextsharp.xtra.dll
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.Core.dll
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.Core.pdb
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\bin\Debug\ReportUtilities.Core.xml
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\bin\Debug\de\ReportUtilities.Core.resources.dll
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.csprojResolveAssemblyReference.cache
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.FrmConfiguraciones.resources
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.Properties.Resources.resources
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.csproj.GenerateResource.Cache
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\obj\Debug\RdlCompile.cache
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\obj\Debug\RdlCompile.compiled
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.exe
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities\obj\Debug\ReportUtilities.pdb
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\System.Configuration.dll
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\System.Data.DataSetExtensions.dll
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\System.Data.dll
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\SRI\ReportUtilities\ReportUtilities\bin\Debug\MySql.Data.dll
+C:\SRI\eFactura\ReportUtilities\bin\Debug\ReportUtilities.exe.config
+C:\SRI\eFactura\ReportUtilities\bin\Debug\ReportUtilities.exe
+C:\SRI\eFactura\ReportUtilities\bin\Debug\ReportUtilities.pdb
+C:\SRI\eFactura\ReportUtilities\bin\Debug\itextsharp.dll
+C:\SRI\eFactura\ReportUtilities\bin\Debug\itextsharp.pdfa.dll
+C:\SRI\eFactura\ReportUtilities\bin\Debug\itextsharp.xtra.dll
+C:\SRI\eFactura\ReportUtilities\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\SRI\eFactura\ReportUtilities\bin\Debug\MySql.Data.dll
+C:\SRI\eFactura\ReportUtilities\bin\Debug\ReportUtilities.Core.dll
+C:\SRI\eFactura\ReportUtilities\bin\Debug\System.Configuration.dll
+C:\SRI\eFactura\ReportUtilities\bin\Debug\System.Data.DataSetExtensions.dll
+C:\SRI\eFactura\ReportUtilities\bin\Debug\System.Data.dll
+C:\SRI\eFactura\ReportUtilities\bin\Debug\ReportUtilities.Core.pdb
+C:\SRI\eFactura\ReportUtilities\bin\Debug\ReportUtilities.Core.xml
+C:\SRI\eFactura\ReportUtilities\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\SRI\eFactura\ReportUtilities\bin\Debug\de\ReportUtilities.Core.resources.dll
+C:\SRI\eFactura\ReportUtilities\obj\Debug\ReportUtilities.csprojResolveAssemblyReference.cache
+C:\SRI\eFactura\ReportUtilities\obj\Debug\ReportUtilities.FrmConfiguraciones.resources
+C:\SRI\eFactura\ReportUtilities\obj\Debug\ReportUtilities.Properties.Resources.resources
+C:\SRI\eFactura\ReportUtilities\obj\Debug\ReportUtilities.csproj.GenerateResource.Cache
+C:\SRI\eFactura\ReportUtilities\obj\Debug\RdlCompile.cache
+C:\SRI\eFactura\ReportUtilities\obj\Debug\RdlCompile.compiled
+C:\SRI\eFactura\ReportUtilities\obj\Debug\ReportUtilities.exe
+C:\SRI\eFactura\ReportUtilities\obj\Debug\ReportUtilities.pdb

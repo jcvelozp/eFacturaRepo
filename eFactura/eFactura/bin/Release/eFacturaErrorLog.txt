@@ -1,0 +1,252 @@
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:42:18
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System.Xml
+ERROR MESSAGE (USER):
+Data at the root level is invalid. Line 1, position 1.
+
+ERROR MESSAGE (DEVELOPER):
+System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at eFactura.frmControlDoc.recepcionDocumentos(String vruta, String sClaveAcc, String secuencia, String tipodoc, String sigla, String num_doc) in C:\SRI\eFactura\eFactura\frmControlDoc.vb:line 1256
+
+MORE INFO:Error en la recepción de documentos. Error: Failed to access the WSDL at: https://cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes?wsdl. It failed with: 
+	Connection reset.
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:42:24
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+An invalid character was found in the mail header: ';'.
+
+ERROR MESSAGE (DEVELOPER):
+System.FormatException: An invalid character was found in the mail header: ';'.
+   at System.Net.Mail.MailAddressParser.ParseLocalPart(String data, Int32& index, Boolean expectAngleBracket, Boolean expectMultipleAddresses)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at ReportUtilities.Email.Send() in c:\SRI\ReportUtilities\ReportUtilities\Email\Email.cs:line 64
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:42:43
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System.Xml
+ERROR MESSAGE (USER):
+Data at the root level is invalid. Line 1, position 1.
+
+ERROR MESSAGE (DEVELOPER):
+System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at eFactura.frmControlDoc.recepcionDocumentos(String vruta, String sClaveAcc, String secuencia, String tipodoc, String sigla, String num_doc) in C:\SRI\eFactura\eFactura\frmControlDoc.vb:line 1256
+
+MORE INFO:Error en la recepción de documentos. Error: Failed to access the WSDL at: https://cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes?wsdl. It failed with: 
+	Connection reset.
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:42:46
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+An invalid character was found in the mail header: ';'.
+
+ERROR MESSAGE (DEVELOPER):
+System.FormatException: An invalid character was found in the mail header: ';'.
+   at System.Net.Mail.MailAddressParser.ParseLocalPart(String data, Int32& index, Boolean expectAngleBracket, Boolean expectMultipleAddresses)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at ReportUtilities.Email.Send() in c:\SRI\ReportUtilities\ReportUtilities\Email\Email.cs:line 64
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:43:08
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System.Xml
+ERROR MESSAGE (USER):
+Data at the root level is invalid. Line 1, position 1.
+
+ERROR MESSAGE (DEVELOPER):
+System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at eFactura.frmControlDoc.recepcionDocumentos(String vruta, String sClaveAcc, String secuencia, String tipodoc, String sigla, String num_doc) in C:\SRI\eFactura\eFactura\frmControlDoc.vb:line 1256
+
+MORE INFO:Error en la recepción de documentos. Error: Failed to access the WSDL at: https://cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes?wsdl. It failed with: 
+	Connection reset.
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:43:11
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+An invalid character was found in the mail header: ';'.
+
+ERROR MESSAGE (DEVELOPER):
+System.FormatException: An invalid character was found in the mail header: ';'.
+   at System.Net.Mail.MailAddressParser.ParseLocalPart(String data, Int32& index, Boolean expectAngleBracket, Boolean expectMultipleAddresses)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at ReportUtilities.Email.Send() in c:\SRI\ReportUtilities\ReportUtilities\Email\Email.cs:line 64
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:43:21
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System.Xml
+ERROR MESSAGE (USER):
+Data at the root level is invalid. Line 1, position 1.
+
+ERROR MESSAGE (DEVELOPER):
+System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at eFactura.frmControlDoc.recepcionDocumentos(String vruta, String sClaveAcc, String secuencia, String tipodoc, String sigla, String num_doc) in C:\SRI\eFactura\eFactura\frmControlDoc.vb:line 1256
+
+MORE INFO:Error en la recepción de documentos. Error: Failed to access the WSDL at: https://cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes?wsdl. It failed with: 
+	Connection reset.
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:43:24
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+An invalid character was found in the mail header: ';'.
+
+ERROR MESSAGE (DEVELOPER):
+System.FormatException: An invalid character was found in the mail header: ';'.
+   at System.Net.Mail.MailAddressParser.ParseLocalPart(String data, Int32& index, Boolean expectAngleBracket, Boolean expectMultipleAddresses)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at ReportUtilities.Email.Send() in c:\SRI\ReportUtilities\ReportUtilities\Email\Email.cs:line 64
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:43:34
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System.Xml
+ERROR MESSAGE (USER):
+Data at the root level is invalid. Line 1, position 1.
+
+ERROR MESSAGE (DEVELOPER):
+System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at eFactura.frmControlDoc.recepcionDocumentos(String vruta, String sClaveAcc, String secuencia, String tipodoc, String sigla, String num_doc) in C:\SRI\eFactura\eFactura\frmControlDoc.vb:line 1256
+
+MORE INFO:Error en la recepción de documentos. Error: Failed to access the WSDL at: https://cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes?wsdl. It failed with: 
+	Connection reset.
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:43:37
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+An invalid character was found in the mail header: ';'.
+
+ERROR MESSAGE (DEVELOPER):
+System.FormatException: An invalid character was found in the mail header: ';'.
+   at System.Net.Mail.MailAddressParser.ParseLocalPart(String data, Int32& index, Boolean expectAngleBracket, Boolean expectMultipleAddresses)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at ReportUtilities.Email.Send() in c:\SRI\ReportUtilities\ReportUtilities\Email\Email.cs:line 64
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:43:48
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System.Xml
+ERROR MESSAGE (USER):
+Data at the root level is invalid. Line 1, position 1.
+
+ERROR MESSAGE (DEVELOPER):
+System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at eFactura.frmControlDoc.recepcionDocumentos(String vruta, String sClaveAcc, String secuencia, String tipodoc, String sigla, String num_doc) in C:\SRI\eFactura\eFactura\frmControlDoc.vb:line 1256
+
+MORE INFO:Error en la recepción de documentos. Error: Failed to access the WSDL at: https://cel.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantes?wsdl. It failed with: 
+	Connection reset.
+
+***************************************************************************************
+ERROR DATE:  15/01/2015 17:43:51
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+An invalid character was found in the mail header: ';'.
+
+ERROR MESSAGE (DEVELOPER):
+System.FormatException: An invalid character was found in the mail header: ';'.
+   at System.Net.Mail.MailAddressParser.ParseLocalPart(String data, Int32& index, Boolean expectAngleBracket, Boolean expectMultipleAddresses)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at ReportUtilities.Email.Send() in c:\SRI\ReportUtilities\ReportUtilities\Email\Email.cs:line 64
+
+MORE INFO:
+

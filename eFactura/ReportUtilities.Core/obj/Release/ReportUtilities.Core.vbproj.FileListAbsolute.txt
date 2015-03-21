@@ -1,0 +1,14 @@
+C:\SRI\ReportUtilities\ReportUtilities.Core\bin\Release\ReportUtilities.Core.dll.config
+C:\SRI\ReportUtilities\ReportUtilities.Core\bin\Release\ReportUtilities.Core.dll
+C:\SRI\ReportUtilities\ReportUtilities.Core\bin\Release\ReportUtilities.Core.pdb
+C:\SRI\ReportUtilities\ReportUtilities.Core\bin\Release\ReportUtilities.Core.xml
+C:\SRI\ReportUtilities\ReportUtilities.Core\bin\Release\de\ReportUtilities.Core.resources.dll
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Release\ReportUtilities.Core.Resources.resources
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Release\ReportUtilities.Core.FrmReportViewer.resources
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Release\ReportUtilities.Core.FrmReportViewer.de.resources
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Release\ReportUtilities.Core.vbproj.GenerateResource.Cache
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Release\de\ReportUtilities.Core.resources.dll
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Release\ReportUtilities.Core.dll
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Release\ReportUtilities.Core.xml
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Release\ReportUtilities.Core.pdb
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Release\ReportUtilities.Core.vbprojResolveAssemblyReference.cache

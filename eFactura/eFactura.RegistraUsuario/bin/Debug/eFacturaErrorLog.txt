@@ -1,0 +1,19 @@
+***************************************************************************************
+ERROR DATE:  04/01/2015 23:51:56
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  Microsoft.VisualBasic
+ERROR MESSAGE (USER):
+Conversion from string "Se envio el correo electronico a" to type 'Double' is not valid.
+
+ERROR MESSAGE (DEVELOPER):
+System.InvalidCastException: Conversion from string "Se envio el correo electronico a" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at eFactura.RegistraUsuario.Registrar.Main(String[] args) in C:\SRI\eFactura\eFactura.RegistraUsuario\Registrar.vb:line 16
+
+MORE INFO:
+

@@ -1,0 +1,17 @@
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\eFactura.RegistraUsuario.exe.config
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\eFactura.RegistraUsuario.exe
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\eFactura.RegistraUsuario.pdb
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\eFactura.RegistraUsuario.xml
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\ReportUtilities.exe
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\ReportUtilities.Core.dll
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\itextsharp.dll
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\ReportUtilities.pdb
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\ReportUtilities.Core.pdb
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\ReportUtilities.Core.xml
+C:\SRI\eFactura\eFactura.RegistraUsuario\bin\Release\de\ReportUtilities.Core.resources.dll
+C:\SRI\eFactura\eFactura.RegistraUsuario\obj\Release\eFactura.RegistraUsuario.vbprojResolveAssemblyReference.cache
+C:\SRI\eFactura\eFactura.RegistraUsuario\obj\Release\eFactura.RegistraUsuario.Resources.resources
+C:\SRI\eFactura\eFactura.RegistraUsuario\obj\Release\eFactura.RegistraUsuario.vbproj.GenerateResource.Cache
+C:\SRI\eFactura\eFactura.RegistraUsuario\obj\Release\eFactura.RegistraUsuario.exe
+C:\SRI\eFactura\eFactura.RegistraUsuario\obj\Release\eFactura.RegistraUsuario.xml
+C:\SRI\eFactura\eFactura.RegistraUsuario\obj\Release\eFactura.RegistraUsuario.pdb

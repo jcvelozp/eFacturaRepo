@@ -1,0 +1,53 @@
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.dll.config
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.dll
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.pdb
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.xml
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\bin\Debug\de\ReportUtilities.Core.resources.dll
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.Resources.resources
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.FrmReportViewer.resources
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.FrmReportViewer.de.resources
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.vbproj.GenerateResource.Cache
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\obj\Debug\de\ReportUtilities.Core.resources.dll
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.dll
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.xml
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.pdb
+C:\Users\Ordenador\Documents\ProyectoAndres\NuevoLinkUPS\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.vbprojResolveAssemblyReference.cache
+C:\SRI\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.dll.config
+C:\SRI\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.dll
+C:\SRI\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.pdb
+C:\SRI\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.xml
+C:\SRI\ReportUtilities\ReportUtilities.Core\bin\Debug\de\ReportUtilities.Core.resources.dll
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.Resources.resources
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.FrmReportViewer.resources
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.FrmReportViewer.de.resources
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.vbproj.GenerateResource.Cache
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Debug\de\ReportUtilities.Core.resources.dll
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.dll
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.xml
+C:\SRI\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.pdb
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.dll.config
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.dll
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.pdb
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.xml
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\bin\Debug\de\ReportUtilities.Core.resources.dll
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.Resources.resources
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.FrmReportViewer.resources
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.FrmReportViewer.de.resources
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.vbproj.GenerateResource.Cache
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\obj\Debug\de\ReportUtilities.Core.resources.dll
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.dll
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.xml
+C:\Users\Ordenador\Documents\Visual Studio 2012\Projects\ReportUtilities\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.pdb
+C:\SRI\eFactura\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.dll.config
+C:\SRI\eFactura\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.dll
+C:\SRI\eFactura\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.pdb
+C:\SRI\eFactura\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.xml
+C:\SRI\eFactura\ReportUtilities.Core\bin\Debug\de\ReportUtilities.Core.resources.dll
+C:\SRI\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.Resources.resources
+C:\SRI\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.FrmReportViewer.resources
+C:\SRI\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.FrmReportViewer.de.resources
+C:\SRI\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.vbproj.GenerateResource.Cache
+C:\SRI\eFactura\ReportUtilities.Core\obj\Debug\de\ReportUtilities.Core.resources.dll
+C:\SRI\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.dll
+C:\SRI\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.xml
+C:\SRI\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.pdb
