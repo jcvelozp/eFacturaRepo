@@ -56,7 +56,6 @@ C:\SRI\eFacturaRepo\eFactura\ReportUtilities.Core\bin\Debug\ReportUtilities.Core
 C:\SRI\eFacturaRepo\eFactura\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.pdb
 C:\SRI\eFacturaRepo\eFactura\ReportUtilities.Core\bin\Debug\ReportUtilities.Core.xml
 C:\SRI\eFacturaRepo\eFactura\ReportUtilities.Core\bin\Debug\de\ReportUtilities.Core.resources.dll
-C:\SRI\eFacturaRepo\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.vbprojResolveAssemblyReference.cache
 C:\SRI\eFacturaRepo\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.Resources.resources
 C:\SRI\eFacturaRepo\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.FrmReportViewer.resources
 C:\SRI\eFacturaRepo\eFactura\ReportUtilities.Core\obj\Debug\ReportUtilities.Core.FrmReportViewer.de.resources

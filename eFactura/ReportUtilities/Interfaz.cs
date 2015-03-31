@@ -15,21 +15,23 @@ namespace ReportUtilities
     public class Interfaz : IIntertaz
     {
 
-        public bool GenerarRIDE(string id_cliente, int secuencia, string tipo_doc, string nombre_archivo,bool abrirArchivo=false)
+        public bool GenerarRIDE(string id_cliente, int secuencia, string tipo_doc, string nombre_archivo, bool abrirArchivo = false)
         {
             cab_documentoTableAdapter ta = new cab_documentoTableAdapter();
-            DS_FacturacionElectronica.cab_documentoDataTable dt = ta.GetDataBySecuencia(secuencia,tipo_doc);
+            DS_FacturacionElectronica.cab_documentoDataTable dt = ta.GetDataBySecuencia(secuencia, tipo_doc);
             if (dt.Count > 0)
             {
-                var doc = Documentos(tipo_doc,secuencia, id_cliente);                
-                if (doc!=null) {
+                var doc = Documentos(tipo_doc, secuencia, id_cliente);
+                if (doc != null)
+                {
                     doc.ReportFileName = nombre_archivo;
-                    var result=doc.Print(doc.Parametros);
-                    if (abrirArchivo) {
+                    var result = doc.Print(doc.Parametros);
+                    if (abrirArchivo)
+                    {
                         doc.OpenFile(nombre_archivo);
-                    }                   
+                    }
                     return result;
-                }                
+                }
             }
             return false;
         }
@@ -57,7 +59,7 @@ namespace ReportUtilities
                 }
                 string ext = "";
                 for (int i = 0; i < 3; i++)
-                
+                {
                     switch (i)
                     {
                         case 0:
@@ -70,7 +72,6 @@ namespace ReportUtilities
                             ext = "_au.xml";
                             break;
                     }
-                if (File.Exists(this.RepositorioLocal(cliente_id, tipo_documento) + "/" + nombre_archivo + ext)) {
                     FtpClient.upload(Configuraciones.RutaRepositorioFTP + "/" + cliente_id + "/" + tipo_documento + "/" + nombre_archivo + ext, this.RepositorioLocal(cliente_id, tipo_documento) + "/" + nombre_archivo + ext);
                 }
                 return true;
@@ -78,6 +79,7 @@ namespace ReportUtilities
             catch (Exception ex)
             {
                 System.Windows.Forms.MessageBox.Show(ex.ToString());
+                Logs.WriteErrorLog(ex);
             }
             return false;
         }
@@ -102,26 +104,28 @@ namespace ReportUtilities
             return email.Send();
         }
 
-        public string PlantillaRIDE(string NombreCliente,string NumeroDocumento,string InformacionEmpresa="") {
+        public string PlantillaRIDE(string NombreCliente, string NumeroDocumento, string InformacionEmpresa = "")
+        {
             string mensaje = Configuraciones.MensajeAEnviar;
-            
+
             mensaje = mensaje.Replace("#TITULO#", Configuraciones.PruebaTitulo);
             mensaje = mensaje.Replace("#CONTENIDO#", Configuraciones.PruebaDescripcion);
 
-            if (String.IsNullOrEmpty(InformacionEmpresa)) { 
-            InformacionEmpresa=Configuraciones.PruebaInfoEmpresa;
+            if (String.IsNullOrEmpty(InformacionEmpresa))
+            {
+                InformacionEmpresa = Configuraciones.PruebaInfoEmpresa;
             }
             mensaje = mensaje.Replace("#INFO_EMPRESA#", InformacionEmpresa);
-            mensaje = mensaje.Replace("#DIRECCION#",  Configuraciones.PruebaDireccion);
+            mensaje = mensaje.Replace("#DIRECCION#", Configuraciones.PruebaDireccion);
             mensaje = mensaje.Replace("#FECHA_HORA#", DateTime.Now.ToString());
             mensaje = mensaje.Replace("#CLIENTE#", NombreCliente);
 
             mensaje = mensaje.Replace("#NUMERO_DOCUMENTO#", NumeroDocumento);
-            
+
             return mensaje;
         }
 
-        public string PlantillaRegistro(string NombreCliente, string Usuario,string Password, string InformacionEmpresa = "")
+        public string PlantillaRegistro(string NombreCliente, string Usuario, string Password, string InformacionEmpresa = "")
         {
             string mensaje = Configuraciones.MensajeAEnviarRegistro;
 
@@ -163,7 +167,7 @@ namespace ReportUtilities
 
         public string RepositorioLocal(string ruc_cedula, string tipo_doc)
         {
-            string path = Configuraciones.RutaRepositorioLocal  + ruc_cedula + "\\" + tipo_doc + "\\";
+            string path = Configuraciones.RutaRepositorioLocal + ruc_cedula + "\\" + tipo_doc + "\\";
             if (!Directory.Exists(path))
             {
                 try
@@ -202,13 +206,16 @@ namespace ReportUtilities
             return doc;
         }
 
-        public DataSet.DS_FacturacionElectronica.usuarioRow GetUsuario(string cedula) {
+        public DataSet.DS_FacturacionElectronica.usuarioRow GetUsuario(string cedula)
+        {
             DataSet.DS_FacturacionElectronica.usuarioRow user = null;
-            if (!String.IsNullOrEmpty(cedula)) {
-               var dt= new DataSet.DS_FacturacionElectronicaTableAdapters.usuarioTableAdapter().GetDataByCedula(cedula);
-               if (dt.Count > 0) {
-                   user = dt[0];
-               }
+            if (!String.IsNullOrEmpty(cedula))
+            {
+                var dt = new DataSet.DS_FacturacionElectronicaTableAdapters.usuarioTableAdapter().GetDataByCedula(cedula);
+                if (dt.Count > 0)
+                {
+                    user = dt[0];
+                }
             }
             return user;
         }

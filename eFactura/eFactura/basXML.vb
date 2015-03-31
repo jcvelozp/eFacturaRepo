@@ -392,7 +392,7 @@ Public Class basXML
             cls.AbrirConexion()
             con = cls.GetConexion()
             cmd.CommandType = System.Data.CommandType.Text
-            Sql = "insert into log_error(sec_cab, tipo_doc, tipo_error, error) values(" & secuencia & ",'" & tipodoc & "','" & tipoError & "','" & verror & "')"
+            sql = "insert into log_error(sec_cab, tipo_doc, tipo_error, error) values(" & secuencia & ",'" & tipodoc & "','" & tipoError & "',""" & verror & """)"
             cmd.CommandText = Sql
             cmd.Connection = cls.GetConexion
             cmd.ExecuteNonQuery()

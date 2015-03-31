@@ -18,7 +18,8 @@ namespace ReportUtilities.Ftp
         private Stream ftpStream = null;
         private int bufferSize = 2048;
 
-        public ftp() {
+        public ftp()
+        {
             this.host = Configuraciones.HostFTP;
             this.user = Configuraciones.UsuarioFTP;
             this.pass = Configuraciones.PasswordFTP;
@@ -32,7 +33,7 @@ namespace ReportUtilities.Ftp
         {
             try
             {
-               
+
                 /* Create an FTP Request */
                 ftpRequest = (FtpWebRequest)FtpWebRequest.Create(host + "/" + remoteFile);
                 /* Log in to the FTP Server with the User Name and Password Provided */
@@ -90,7 +91,14 @@ namespace ReportUtilities.Ftp
                 /* Establish Return Communication with the FTP Server */
                 ftpStream = ftpRequest.GetRequestStream();
                 /* Open a File Stream to Read the File for Upload */
-                FileStream localFileStream = new FileStream(localFile, FileMode.Open,FileAccess.Read, FileShare.ReadWrite);
+
+                if (!File.Exists(localFile))
+                {
+                    Logs.WriteLog("Se esta intentando subir el documento pero no existe el archivo:" + localFile, "", true);
+                    return;
+                }
+
+                FileStream localFileStream = new FileStream(localFile, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
                 /* Buffer for the Downloaded Data */
                 byte[] byteBuffer = new byte[bufferSize];
                 int bytesSent = localFileStream.Read(byteBuffer, 0, bufferSize);
@@ -109,8 +117,10 @@ namespace ReportUtilities.Ftp
                 ftpStream.Close();
                 ftpRequest = null;
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 System.Windows.Forms.MessageBox.Show(ex.ToString());
+                Logs.WriteErrorLog(ex,"",true);
             }
             return;
         }
@@ -350,9 +360,10 @@ namespace ReportUtilities.Ftp
             return new string[] { "" };
         }
 
-        public bool Test() { 
-        try
-            {   
+        public bool Test()
+        {
+            try
+            {
                 /* Create an FTP Request */
                 ftpRequest = (FtpWebRequest)FtpWebRequest.Create(host + "/");
                 /* Log in to the FTP Server with the User Name and Password Provided */
@@ -367,14 +378,14 @@ namespace ReportUtilities.Ftp
                 ftpResponse = (FtpWebResponse)ftpRequest.GetResponse();
                 /* Get the FTP Server's Response Stream */
                 ftpStream = ftpResponse.GetResponseStream();
-               //set some flag
+                //set some flag
                 return true;
             }
             catch (Exception ex)
             {
-              //handle it not working
+                //handle it not working
             }
-        return false;
+            return false;
         }
 
     }

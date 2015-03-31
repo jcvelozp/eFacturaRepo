@@ -13,7 +13,7 @@ namespace ReportUtilities
         {
             get
             {
-                return System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\FlowErrorLog.txt";
+                return System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\eFacturaErrorLog.txt";
             }
         }
         private static void WriteErrorLog(string errorMsg, string location, string error_dev, string addInfo = "",bool enviarCorreo=false)
