@@ -1,9 +1,11 @@
 ﻿Imports ReportUtilities
 Public Class Form1
 
+    Private cancelar As Boolean = False
+
     Private Sub bgwService_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs) Handles bgwService.DoWork
         While True
-            If e.Cancel Then
+            If e.Cancel Or cancelar Then
                 Exit While
             End If
             Dim ctrl As New frmControlDoc
@@ -18,6 +20,7 @@ Public Class Form1
 
     Private Sub btnIniciar_Click(sender As Object, e As EventArgs) Handles btnIniciar.Click
         If Not bgwService.IsBusy Then
+            cancelar = False
             EnableControl(False)
             bgwService.RunWorkerAsync()
         End If
@@ -45,11 +48,13 @@ Public Class Form1
 
     Private Sub bgwService_RunWorkerCompleted(sender As Object, e As System.ComponentModel.RunWorkerCompletedEventArgs) Handles bgwService.RunWorkerCompleted
         EnableControl(True)
+        cancelar = False
         'txtLog.Text &= Now & ": " & e.Result & Environment.NewLine
     End Sub
 
     Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click
         bgwService.CancelAsync()
+        cancelar = True
     End Sub
 
     Private Sub bgwService_ProgressChanged(sender As Object, e As System.ComponentModel.ProgressChangedEventArgs) Handles bgwService.ProgressChanged
