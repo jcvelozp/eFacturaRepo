@@ -11218,3 +11218,27 @@ MESSAGE:Secuencia de Documento:110988 Tipo de Documento:04 no fue autorizado por
 
 - ImpuestoDetalle:
 	La base imponible del impuesto 0.0 no coincide con la calculada 179.52 en ImpuestoDetalle[2,0]Tipo de Error:A
+***************************************************************************************
+DATE:  30/03/2015 17:11:06
+MESSAGE:Documento con secuencia:114425 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  30/03/2015 17:12:29
+MESSAGE:Documento con secuencia:114425 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  30/03/2015 22:58:11
+MESSAGE:Documento con secuencia:297093 y tipo de documento:07, DEVUELTO
+***************************************************************************************
+DATE:  30/03/2015 23:01:08
+MESSAGE:Documento con secuencia:297093 y tipo de documento:07, DEVUELTO
+***************************************************************************************
+DATE:  30/03/2015 23:05:24
+MESSAGE:Documento con secuencia:297093 y tipo de documento:07, DEVUELTO
+***************************************************************************************
+DATE:  30/03/2015 23:05:38
+MESSAGE:Documento con secuencia:297093 y tipo de documento:07, DEVUELTO
+***************************************************************************************
+DATE:  30/03/2015 23:05:50
+MESSAGE:Documento con secuencia:297093 y tipo de documento:07, DEVUELTO
+***************************************************************************************
+DATE:  31/03/2015 8:13:22
+MESSAGE:Documento con secuencia:297093 y tipo de documento:07, DEVUELTO

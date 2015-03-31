@@ -272,7 +272,7 @@ Public Class frmControlDoc
                     invocarWS(dgvDocumento.Rows(fila).Cells("secuencia").Value, tipoDoc, rucCliente, codClienteInt, vRuta, vRutaAu, sClave & result, numDocumento, "FAC", vNombreArchivo, nombreCliente)
 
                 Else
-                     Alerta("Error en el XML, número de secuencia:" & dgvDocumento.Rows(fila).Cells("secuencia").Value & " Tipo de Documento:" & tipoDoc)
+                    Alerta("Error en el XML, número de secuencia:" & dgvDocumento.Rows(fila).Cells("secuencia").Value & " Tipo de Documento:" & tipoDoc)
                 End If
             Else
                 invocarWS(dgvDocumento.Rows(fila).Cells("secuencia").Value, tipoDoc, rucCliente, codClienteInt, vRuta, vRutaAu, claveAcc, numDocumento, "FAC", vNombreArchivo, nombreCliente)
@@ -1123,6 +1123,9 @@ Public Class frmControlDoc
         Dim strFecAu As String = ""
         Dim dsAu As New DataSet
         Dim interfaz As New ReportUtilities.Interfaz()
+        Dim ds As DataSet
+        Dim emision As Integer
+        Dim clave As String
 
         Try
             dsAu = cls.verificaDocumento(secuencia, tipodoc, codClienteInt, vRuta, vRutaAu)
@@ -1134,26 +1137,46 @@ Public Class frmControlDoc
 
             If dsAu.Tables(0).Rows.Count = 0 Then
 
-                If Configuraciones.Get("TipoEmision") = 1 Then 'NORMAL o CONTINGENCIA
-                    If recepcionDocumentos(vRuta, sClaveAcc, secuencia, tipodoc, sigla, num_doc) Then
-                        If cls.insertarDocumento(secuencia, tipodoc, codClienteInt, nombreArchivo, strAu, sClaveAcc, rucCliente) Then
-                            If autorizaDocumentos(sClaveAcc, secuencia, tipodoc, sigla, num_doc, vRutaAu) Then
-                                If generarRide(rucCliente, secuencia, tipodoc, sigla, num_doc) Then
-                                    If enviarDocumentoMail(secuencia, tipodoc, rucCliente, sigla, num_doc, nombreCliente) Then
+                ds = cls.verificarClaveAcceso(secuencia, tipodoc)
+                If ds.Tables(0).Rows.Count > 0 Then
+                    emision = ds.Tables(0).Rows(0).Item("emision")
+                    clave = ds.Tables(0).Rows(0).Item("clave_acceso")
+                Else
+                    emision = Configuraciones.Get("TipoEmision")
+                    clave = ""
+                End If
 
-                                    Else
-                                        Alerta("Correo Electronico no ha sido enviado al cliente " & rucCliente & " " & nombreCliente & " secuencia:" & secuencia & " y tipo de documento:" & tipodoc)
+                If emision = 2 And clave <> "" Then
+                    If recepcionDocumentos(vRuta, sClaveAcc, secuencia, tipodoc, sigla, num_doc, emision) Then
+                        If autorizaDocumentos(sClaveAcc, secuencia, tipodoc, sigla, num_doc, vRutaAu, emision) Then
+
+                        End If
+                    End If
+                Else
+
+                    If emision = 1 Then 'NORMAL o CONTINGENCIA
+                        If recepcionDocumentos(vRuta, sClaveAcc, secuencia, tipodoc, sigla, num_doc, emision) Then
+                            If cls.insertarDocumento(secuencia, tipodoc, codClienteInt, nombreArchivo, strAu, sClaveAcc, rucCliente, emision) Then
+                                If autorizaDocumentos(sClaveAcc, secuencia, tipodoc, sigla, num_doc, vRutaAu, emision) Then
+                                    If generarRide(rucCliente, secuencia, tipodoc, sigla, num_doc) Then
+                                        If enviarDocumentoMail(secuencia, tipodoc, rucCliente, sigla, num_doc, nombreCliente) Then
+
+                                        Else
+                                            Alerta("Correo Electronico no ha sido enviado al cliente " & rucCliente & " " & nombreCliente & " secuencia:" & secuencia & " y tipo de documento:" & tipodoc)
+                                        End If
                                     End If
                                 End If
                             End If
                         End If
-                    End If
-                Else
-                    If generarRide(rucCliente, secuencia, tipodoc, sigla, num_doc) Then
-                        If enviarDocumentoMail(secuencia, tipodoc, rucCliente, sigla, num_doc, nombreCliente) Then
+                    Else
+                        If cls.insertarDocumento(secuencia, tipodoc, codClienteInt, nombreArchivo, strAu, sClaveAcc, rucCliente, emision) Then
+                            If generarRide(rucCliente, secuencia, tipodoc, sigla, num_doc) Then
+                                If enviarDocumentoMail(secuencia, tipodoc, rucCliente, sigla, num_doc, nombreCliente) Then
 
-                        Else
-                            Alerta("Correo Electronico no ha sido enviado al cliente " & rucCliente & " " & nombreCliente & " secuencia:" & secuencia & " y tipo de documento:" & tipodoc)
+                                Else
+                                    Alerta("Correo Electronico no ha sido enviado al cliente " & rucCliente & " " & nombreCliente & " secuencia:" & secuencia & " y tipo de documento:" & tipodoc)
+                                End If
+                            End If
                         End If
                     End If
                 End If
@@ -1166,7 +1189,7 @@ Public Class frmControlDoc
         End Try
     End Sub
 
-    Private Function recepcionDocumentos(vruta As String, sClaveAcc As String, secuencia As String, tipodoc As String, sigla As String, num_doc As String)
+    Private Function recepcionDocumentos(vruta As String, sClaveAcc As String, secuencia As String, tipodoc As String, sigla As String, num_doc As String, emision As Integer)
         Dim wsRecepcion As New RecepcionComp.RecepcionComprobanteClient
         Dim xmlnodeEstado As XmlNodeList
         Dim xmlnode As XmlNodeList
@@ -1176,71 +1199,74 @@ Public Class frmControlDoc
         Dim doc As XDocument
         Dim cls As New basXML
         Dim brecibido As Boolean
+        Dim ds As DataSet
+
         brecibido = True
-        If Configuraciones.Get("TipoEmision") = 1 Then 'si es normal
-            doc = XDocument.Load(vruta)
-            Try
-                Dim s_xml As String = "<?xml version=""1.0"" encoding=""utf-8""?>" & doc.ToString()
+        'If emision = 1 Then 'si es normal
 
-                Dim b = System.Text.Encoding.UTF8.GetBytes(s_xml)
-                Dim s2 = System.Text.Encoding.UTF8.GetString(b)
+        doc = XDocument.Load(vruta)
+        Try
+            Dim s_xml As String = "<?xml version=""1.0"" encoding=""utf-8""?>" & doc.ToString()
 
-                s1 = wsRecepcion.validarComprobante("1|" & Configuraciones.Get("Ambiente"), s2)
-                If basXML.TryParseXml(s1) Then
-                    xmldoc.LoadXml(s1)
-                Else
-                    brecibido = False
-                End If
-            Catch ex As Exception
+            Dim b = System.Text.Encoding.UTF8.GetBytes(s_xml)
+            Dim s2 = System.Text.Encoding.UTF8.GetString(b)
+
+            s1 = wsRecepcion.validarComprobante("1|" & Configuraciones.Get("Ambiente"), s2)
+            If basXML.TryParseXml(s1) Then
+                xmldoc.LoadXml(s1)
+            Else
                 brecibido = False
-                OcurrioError(ex, "Error en la recepción de documentos. " & s1)
-                Return brecibido
-            End Try
+            End If
+        Catch ex As Exception
+            brecibido = False
+            OcurrioError(ex, "Error en la recepción de documentos. " & s1)
+            Return brecibido
+        End Try
 
-            Try
-                xmlnodeEstado = xmldoc.GetElementsByTagName("estado")
-                If (xmlnodeEstado IsNot Nothing) Then
-                    If xmlnodeEstado.Count > 0 Then
-                        If xmlnodeEstado(0).ChildNodes.Count > 0 Then
-                            If xmlnodeEstado(0).ChildNodes.Item(0).InnerText.Trim() = "DEVUELTA" Then
-                                Alerta("Documento con secuencia:" & secuencia & " y tipo de documento:" & tipodoc & ", DEVUELTO", "", False)
+        Try
+            xmlnodeEstado = xmldoc.GetElementsByTagName("estado")
+            If (xmlnodeEstado IsNot Nothing) Then
+                If xmlnodeEstado.Count > 0 Then
+                    If xmlnodeEstado(0).ChildNodes.Count > 0 Then
+                        If xmlnodeEstado(0).ChildNodes.Item(0).InnerText.Trim() = "DEVUELTA" Then
+                            Alerta("Documento con secuencia:" & secuencia & " y tipo de documento:" & tipodoc & ", DEVUELTO", "", False)
 
-                                xmlnode = xmldoc.GetElementsByTagName("identificador")
-                                sCodigo = xmlnode(0).ChildNodes.Item(0).InnerText.Trim()
+                            xmlnode = xmldoc.GetElementsByTagName("identificador")
+                            sCodigo = xmlnode(0).ChildNodes.Item(0).InnerText.Trim()
 
-                                xmlnode = xmldoc.GetElementsByTagName("mensaje")
-                                str = xmlnode(0).ChildNodes.Item(0).InnerText.Trim()
+                            xmlnode = xmldoc.GetElementsByTagName("mensaje")
+                            str = xmlnode(0).ChildNodes.Item(0).InnerText.Trim()
 
-                                xmlnode = xmldoc.GetElementsByTagName("informacionAdicional")
-                                str = str & " " & xmlnode(0).ChildNodes.Item(0).InnerText.Trim()
+                            xmlnode = xmldoc.GetElementsByTagName("informacionAdicional")
+                            str = str & " " & xmlnode(0).ChildNodes.Item(0).InnerText.Trim()
 
-                                If sCodigo <> "70" Then
-                                    'notificaError(str, sigla, num_doc)
-                                End If
-                                cls.logError(secuencia, tipodoc, "R", str)
-                                brecibido = False
-                                Return brecibido
+                            If sCodigo <> "70" Then
+                                'notificaError(str, sigla, num_doc)
                             End If
-                        Else
-                            Logs.WriteLog("El xmlnodeEstado no contiene nodos hijos")
+                            cls.logError(secuencia, tipodoc, "R", str)
+                            brecibido = False
+                            Return brecibido
                         End If
                     Else
-                        Logs.WriteLog("El xmlnodeEstado no contiene elementos")
+                        Logs.WriteLog("El xmlnodeEstado no contiene nodos hijos")
                     End If
                 Else
-                    Logs.WriteLog("El valor de xmlnodeEstado es null al intentar obtener el estado")
+                    Logs.WriteLog("El xmlnodeEstado no contiene elementos")
                 End If
-            Catch ex As Exception
-                cls.logError(secuencia, tipodoc, "R", str)
-                OcurrioError(ex, "Error en recepción de documento " & tipodoc & " secuencia:" & secuencia & "tipo de error: R" & " Mensaje de Error:" & str)
-                brecibido = False
-                Return brecibido
-            End Try
-        End If
+            Else
+                Logs.WriteLog("El valor de xmlnodeEstado es null al intentar obtener el estado")
+            End If
+        Catch ex As Exception
+            cls.logError(secuencia, tipodoc, "R", str)
+            OcurrioError(ex, "Error en recepción de documento " & tipodoc & " secuencia:" & secuencia & "tipo de error: R" & " Mensaje de Error:" & str)
+            brecibido = False
+            Return brecibido
+        End Try
+        'End If
         Return brecibido
     End Function
 
-    Private Function autorizaDocumentos(sClaveAcc As String, secuencia As String, tipodoc As String, sigla As String, num_doc As String, vRutaAu As String)
+    Private Function autorizaDocumentos(sClaveAcc As String, secuencia As String, tipodoc As String, sigla As String, num_doc As String, vRutaAu As String, emision As Integer)
         Dim xmlnodeEstado As XmlNodeList
         Dim xmlnode As XmlNodeList
         Dim str As String = ""
@@ -1256,22 +1282,79 @@ Public Class frmControlDoc
         iPosicion = -1
 
 
-        If Configuraciones.Get("TipoEmision") = 1 Then 'si es normal
-            Try
-                Dim wsautoriza As New AutorizacionComp.AutorizacionComprobanteClient
-                Dim respuesta As String = wsautoriza.autorizacionComprobante("1|" & Configuraciones.Get("Ambiente"), sClaveAcc)
+        'If emision = 1 Then 'si es normal
+        Try
+            Dim wsautoriza As New AutorizacionComp.AutorizacionComprobanteClient
+            Dim respuesta As String = wsautoriza.autorizacionComprobante("1|" & Configuraciones.Get("Ambiente"), sClaveAcc)
 
-                If basXML.TryParseXml(respuesta) Then
-                    xmldoc1.LoadXml(respuesta)
-                Else
-                    Return False
+            If basXML.TryParseXml(respuesta) Then
+                xmldoc1.LoadXml(respuesta)
+            Else
+                Return False
+            End If
+
+            If xmldoc1 Is Nothing Then
+                Logs.WriteLog("Error al cargar el XML en la funcion autorizaDocumentos", "Respuesta para cargar el XML:" & respuesta, False)
+                Return False
+            End If
+
+            xmlnodeEstado = xmldoc1.GetElementsByTagName("estado")
+
+            For i = 0 To xmlnodeEstado.Count - 1
+                If xmlnodeEstado(i).ChildNodes.Item(0).InnerText.Trim() = "AUTORIZADO" Then
+                    iPosicion = i
+                End If
+            Next
+
+            If iPosicion = -1 Then
+                iPosicion = 0
+            End If
+
+            Dim mensaje As String = String.Empty
+            If xmlnodeEstado.Count = 0 Then
+                'No tiene datos
+                Return False
+            ElseIf xmlnodeEstado(iPosicion).ChildNodes.Count = 0 Then
+                'no tiene datos
+                Return False
+            ElseIf String.IsNullOrEmpty(xmlnodeEstado(iPosicion).ChildNodes.Item(0).InnerText) Then
+                'no tiene datos
+                Return False
+            Else
+                mensaje = xmlnodeEstado(iPosicion).ChildNodes.Item(0).InnerText.Trim()
+            End If
+            If mensaje = "NO AUTORIZADO" Then
+                'MsgBox("NO AUTORIZADO")sistemas2014
+                Alerta("Secuencia de Documento:" & secuencia & " Tipo de Documento:" & tipodoc & " no fue autorizado")
+                xmlnode = xmldoc1.GetElementsByTagName("mensaje")
+
+
+                str = xmlnode(iPosicion).ChildNodes.Item(0).InnerText.Trim()
+
+                If str = "43" Then
+                    str = "Clave de acceso registrada"
+                    cls.logError(secuencia, tipodoc, "A", str)
+                    Alerta("Secuencia de Documento:" & secuencia & " Tipo de Documento:" & tipodoc & " no fue autorizado por:" & str & "Tipo de Error:A")
+                    'notificaError(str, sigla, num_doc)
+                    bAutorizado = False
+                    Return bAutorizado
                 End If
 
-                If xmldoc1 Is Nothing Then
-                    Logs.WriteLog("Error al cargar el XML en la funcion autorizaDocumentos", "Respuesta para cargar el XML:" & respuesta, False)
-                    Return False
-                End If
-
+                xmlnode = xmldoc1.GetElementsByTagName("informacionAdicional")
+                Try
+                    str = xmlnode(iPosicion).ChildNodes.Item(0).InnerText.Trim()
+                    cls.logError(secuencia, tipodoc, "A", str)
+                    Alerta("Secuencia de Documento:" & secuencia & " Tipo de Documento:" & tipodoc & " no fue autorizado por:" & str & "Tipo de Error:A")
+                    'notificaError(str, sigla, num_doc)
+                    bAutorizado = False
+                Catch ex As Exception
+                    OcurrioError(ex, "Autorizado=False")
+                    bAutorizado = False
+                    Return bAutorizado
+                End Try
+                bAutorizado = False
+                Return bAutorizado
+            Else
                 xmlnodeEstado = xmldoc1.GetElementsByTagName("estado")
 
                 For i = 0 To xmlnodeEstado.Count - 1
@@ -1280,97 +1363,40 @@ Public Class frmControlDoc
                     End If
                 Next
 
-                If iPosicion = -1 Then
-                    iPosicion = 0
-                End If
+                xmlnodeAutoriza = xmldoc1.GetElementsByTagName("numeroAutorizacion")
+                'For i = 0 To xmlnodeAutoriza.Count - 1
+                xmlnodeAutoriza(0).ChildNodes.Item(0).InnerText.Trim()
+                strAu = xmlnodeAutoriza(0).ChildNodes.Item(0).InnerText.Trim()
+                'Next
 
-                Dim mensaje As String = String.Empty
-                If xmlnodeEstado.Count = 0 Then
-                    'No tiene datos
-                    Return False
-                ElseIf xmlnodeEstado(iPosicion).ChildNodes.Count = 0 Then
-                    'no tiene datos
-                    Return False
-                ElseIf String.IsNullOrEmpty(xmlnodeEstado(iPosicion).ChildNodes.Item(0).InnerText) Then
-                    'no tiene datos
-                    Return False
-                Else
-                    mensaje = xmlnodeEstado(iPosicion).ChildNodes.Item(0).InnerText.Trim()
-                End If
-                If mensaje = "NO AUTORIZADO" Then
-                    'MsgBox("NO AUTORIZADO")sistemas2014
-                    Alerta("Secuencia de Documento:" & secuencia & " Tipo de Documento:" & tipodoc & " no fue autorizado")
-                    xmlnode = xmldoc1.GetElementsByTagName("mensaje")
+                xmlnodeFecAutoriza = xmldoc1.GetElementsByTagName("fechaAutorizacion")
+                'For i = 0 To xmlnodeFecAutoriza.Count - 1
+                xmlnodeFecAutoriza(iPosicion).ChildNodes.Item(0).InnerText.Trim()
+                strFecAu = xmlnodeFecAutoriza(iPosicion).ChildNodes.Item(0).InnerText.Trim()
+                'Next
+            End If
 
+            'Guardar archivo firmado
+            xmlnode = xmldoc1.GetElementsByTagName("autorizacion")
+            str = xmlnode(iPosicion).InnerXml
 
-                    str = xmlnode(iPosicion).ChildNodes.Item(0).InnerText.Trim()
+            Dim xd As XmlDocument
+            xd = New XmlDocument()
+            xd.LoadXml("<autorizaciones>" & str & "</autorizaciones>")
+            xd.Save(vRutaAu)
 
-                    If str = "43" Then
-                        str = "Clave de acceso registrada"
-                        cls.logError(secuencia, tipodoc, "A", str)
-                        Alerta("Secuencia de Documento:" & secuencia & " Tipo de Documento:" & tipodoc & " no fue autorizado por:" & str & "Tipo de Error:A")
-                        'notificaError(str, sigla, num_doc)
-                        bAutorizado = False
-                        Return bAutorizado
-                    End If
+            cls.actualizaDocumento(secuencia, tipodoc, strAu, strFecAu)
+            cls.actualizaEstado(secuencia, tipodoc)
 
-                    xmlnode = xmldoc1.GetElementsByTagName("informacionAdicional")
-                    Try
-                        str = xmlnode(iPosicion).ChildNodes.Item(0).InnerText.Trim()
-                        cls.logError(secuencia, tipodoc, "A", str)
-                        Alerta("Secuencia de Documento:" & secuencia & " Tipo de Documento:" & tipodoc & " no fue autorizado por:" & str & "Tipo de Error:A")
-                        'notificaError(str, sigla, num_doc)
-                        bAutorizado = False
-                    Catch ex As Exception
-                        OcurrioError(ex, "Autorizado=False")
-                        bAutorizado = False
-                        Return bAutorizado
-                    End Try
-                    bAutorizado = False
-                    Return bAutorizado
-                Else
-                    xmlnodeEstado = xmldoc1.GetElementsByTagName("estado")
-
-                    For i = 0 To xmlnodeEstado.Count - 1
-                        If xmlnodeEstado(i).ChildNodes.Item(0).InnerText.Trim() = "AUTORIZADO" Then
-                            iPosicion = i
-                        End If
-                    Next
-
-                    xmlnodeAutoriza = xmldoc1.GetElementsByTagName("numeroAutorizacion")
-                    'For i = 0 To xmlnodeAutoriza.Count - 1
-                    xmlnodeAutoriza(0).ChildNodes.Item(0).InnerText.Trim()
-                    strAu = xmlnodeAutoriza(0).ChildNodes.Item(0).InnerText.Trim()
-                    'Next
-
-                    xmlnodeFecAutoriza = xmldoc1.GetElementsByTagName("fechaAutorizacion")
-                    'For i = 0 To xmlnodeFecAutoriza.Count - 1
-                    xmlnodeFecAutoriza(iPosicion).ChildNodes.Item(0).InnerText.Trim()
-                    strFecAu = xmlnodeFecAutoriza(iPosicion).ChildNodes.Item(0).InnerText.Trim()
-                    'Next
-                End If
-
-                'Guardar archivo firmado
-                xmlnode = xmldoc1.GetElementsByTagName("autorizacion")
-                str = xmlnode(iPosicion).InnerXml
-
-                Dim xd As XmlDocument
-                xd = New XmlDocument()
-                xd.LoadXml("<autorizaciones>" & str & "</autorizaciones>")
-                xd.Save(vRutaAu)
-
-                cls.actualizaDocumento(secuencia, tipodoc, strAu, strFecAu)
-                cls.actualizaEstado(secuencia, tipodoc)
-
-            Catch ex As Exception
-                cls.logError(secuencia, tipodoc, "A", str & ex.Message)
-                OcurrioError(ex, "Secuencia de Documento:" & secuencia & " Tipo de Documento:" & tipodoc & " no fue autorizado por:" & str & "Tipo de Error:A")
-                bAutorizado = False
-                Return bAutorizado
-            End Try
-        Else
+        Catch ex As Exception
+            cls.logError(secuencia, tipodoc, "A", str & ex.Message)
+            OcurrioError(ex, "Secuencia de Documento:" & secuencia & " Tipo de Documento:" & tipodoc & " no fue autorizado por:" & str & "Tipo de Error:A")
             bAutorizado = False
-        End If
+            Return bAutorizado
+        End Try
+        'Else
+        'bAutorizado = False
+        'End If
         Return bAutorizado
     End Function
 
@@ -1411,7 +1437,9 @@ Public Class frmControlDoc
 
             Dim archivos As New List(Of String)
             archivos.Add(interfaz.RepositorioLocal(rucCliente, tipodoc) & "\" & sigla & "_" & num_doc & ".pdf")
-            archivos.Add(interfaz.RepositorioLocal(rucCliente, tipodoc) & "\" & sigla & "_" & num_doc & "_au.xml")
+            If Configuraciones.Get("TipoEmision") = 1 Then 'NORMAL o CONTINGENCIA
+                archivos.Add(interfaz.RepositorioLocal(rucCliente, tipodoc) & "\" & sigla & "_" & num_doc & "_au.xml")
+            End If
             interfaz.EnviarCorreo("Notificación Documento Electrónico TRACTOMAQ - :" & sigla & "_" & num_doc, sb.ToString, ReportUtilities.Tools.Configuraciones.UsuarioEmail, correos, archivos)
             bRetorna = True
 

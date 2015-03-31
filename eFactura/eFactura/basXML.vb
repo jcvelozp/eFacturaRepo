@@ -154,7 +154,7 @@ Public Class basXML
             adapter.SelectCommand.Connection = con
             adapter.SelectCommand.CommandType = CommandType.Text
             cadena = "select c.secuencia, c.tipo_doc TIPO, c.establecimiento ESTABLECIMIENTO,  c.pto_emision PTO_EMISION,  c.num_doc NUMERO, fecha FECHA, c.id_cliente IDENTIFICACION, razons_cliente AGENTE, empresa EMPRESA, c.cod_cliente_int COD_CLIENTE_INT, (select clave_acceso from documentos s where s.sec_cab_doc=c.secuencia and s.tipo_doc=c.tipo_doc) CLAVEACCESO, "
-            cadena = cadena & " (select num_autoriza from documentos s where s.sec_cab_doc=c.secuencia and s.tipo_doc=c.tipo_doc) CLAVEAUTORIZACION  from cab_documento c where estado='a' and c.empresa='" & empresa & "'"
+            cadena = cadena & " (select num_autoriza from documentos s where s.sec_cab_doc=c.secuencia and s.tipo_doc=c.tipo_doc) CLAVEAUTORIZACION  from cab_documento c where estado='A' and c.empresa='" & empresa & "'"
             If tipodoc <> "" Then
                 cadena = cadena & " and c.tipo_doc='" & tipodoc & "'"
             End If
@@ -278,7 +278,7 @@ Public Class basXML
         Return ds
     End Function
 
-    Public Function insertarDocumento(secuencia As Integer, tipodoc As String, cliente As String, vNombreArchivo As String, numAutoriza As String, claveAcceso As String, RUC As String) As Boolean
+    Public Function insertarDocumento(secuencia As Integer, tipodoc As String, cliente As String, vNombreArchivo As String, numAutoriza As String, claveAcceso As String, RUC As String, emision As Integer) As Boolean
         Dim frmConfig As New ReportUtilities.FrmConfiguraciones
         Dim sql As String = ""
         Try
@@ -291,8 +291,8 @@ Public Class basXML
             con = cls.GetConexion()
             cmd.CommandType = System.Data.CommandType.Text
             sql = "insert into documentos(sec_cab_doc, tipo_doc, cliente, ruta_xml, ruta_autoriza, num_autoriza, clave_acceso, emision, ambiente, estado) "
-            sql = sql & "values(" & secuencia & ",'" & tipodoc & "','" & cliente & "','" & (interfaz.RepositorioLocal(RUC, tipodoc)).Replace("\", "\\") & vNombreArchivo & ".xml" & "','" & (interfaz.RepositorioLocal(RUC, tipodoc)).Replace("\", "\\") & vNombreArchivo & "_au.xml" & "','" & numAutoriza & "','" & claveAcceso & "'," & Configuraciones.Get("TipoEmision") & "," & Configuraciones.Get("Ambiente") & ",'"
-            sql = sql & IIf(Configuraciones.Get("TipoEmision") = 1, "A", "C") & "')"
+            sql = sql & "values(" & secuencia & ",'" & tipodoc & "','" & cliente & "','" & (interfaz.RepositorioLocal(RUC, tipodoc)).Replace("\", "\\") & vNombreArchivo & ".xml" & "','" & (interfaz.RepositorioLocal(RUC, tipodoc)).Replace("\", "\\") & vNombreArchivo & "_au.xml" & "','" & numAutoriza & "','" & claveAcceso & "'," & emision & "," & Configuraciones.Get("Ambiente") & ",'"
+            sql = sql & IIf(emision = 1, "A", "C") & "')"
             cmd.CommandText = sql
             cmd.Connection = con
             cmd.ExecuteNonQuery()
@@ -475,6 +475,28 @@ Public Class basXML
             sql = "SELECT * from mail_tipo_documento where tipo_doc='" & tipodoc & "'"
             con = cls.GetConexion()
             cls.AbrirConexion()
+            adapter = New MySqlDataAdapter
+            adapter.SelectCommand = New MySqlCommand
+            adapter.SelectCommand.Connection = con
+            adapter.SelectCommand.CommandType = CommandType.Text
+            adapter.SelectCommand.CommandText = sql
+            ds = New DataSet
+            adapter.Fill(ds)
+            con.Close()
+            Return ds
+        Catch ex As Exception
+            MessageBox.Show(ex.Message.ToString, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1)
+            ReportUtilities.Logs.WriteErrorLog(ex, "SQL con error:" & sql, True)
+        End Try
+        Return Nothing
+    End Function
+
+    Public Function verificarClaveAcceso(secuencia As String, tipodoc As String)
+        Dim sql As String = ""
+        Try
+            con = cls.GetConexion()
+            cls.AbrirConexion()
+            sql = "SELECT * from documentos where sec_cab_doc='" & secuencia & "' and tipo_doc='" & tipodoc & "' and clave_acceso <> ''"
             adapter = New MySqlDataAdapter
             adapter.SelectCommand = New MySqlCommand
             adapter.SelectCommand.Connection = con

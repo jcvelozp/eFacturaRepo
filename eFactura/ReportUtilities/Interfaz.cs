@@ -56,8 +56,8 @@ namespace ReportUtilities
                     FtpClient.createDirectory(Configuraciones.RutaRepositorioFTP + "/" + cliente_id + "/" + item.CODIGO);
                 }
                 string ext = "";
-                for (int i = 0; i < 2; i++)
-                {
+                for (int i = 0; i < 3; i++)
+                
                     switch (i)
                     {
                         case 0:
@@ -66,8 +66,12 @@ namespace ReportUtilities
                         case 1:
                             ext = ".xml";
                             break;
+                        case 2:
+                            ext = "_au.xml";
+                            break;
                     }
-                    FtpClient.upload(Configuraciones.RutaRepositorioFTP + "/" + cliente_id + "/" + tipo_documento + "/" + nombre_archivo + ext, this.RepositorioLocal(cliente_id,tipo_documento) + "/" + nombre_archivo + ext);
+                if (File.Exists(this.RepositorioLocal(cliente_id, tipo_documento) + "/" + nombre_archivo + ext)) {
+                    FtpClient.upload(Configuraciones.RutaRepositorioFTP + "/" + cliente_id + "/" + tipo_documento + "/" + nombre_archivo + ext, this.RepositorioLocal(cliente_id, tipo_documento) + "/" + nombre_archivo + ext);
                 }
                 return true;
             }

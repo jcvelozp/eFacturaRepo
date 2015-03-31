@@ -41,21 +41,24 @@ namespace ReportUtilities.Reportes.Clases
         public string NombreDocumento = "Plantilla";
         public DS_FacturacionElectronica.cab_documentoRow Cabecera { get; set; }
         List<Microsoft.Reporting.WinForms.ReportParameter> parameters = null;
-        public List<Microsoft.Reporting.WinForms.ReportParameter> Parametros {
-            get {
-                if (parameters == null) {
+        public List<Microsoft.Reporting.WinForms.ReportParameter> Parametros
+        {
+            get
+            {
+                if (parameters == null)
+                {
                     parameters = GetParameters();
                 }
                 return parameters;
             }
-        } 
+        }
         #endregion
 
         public Plantilla(int secuencia, string id_cliente)
         {
             this.ReportProject = "ReportUtilities";
             this.TypeStream = this.GetType();
-            this.taCab.FillByClienteID(dtCab, id_cliente,secuencia);
+            this.taCab.FillByClienteID(dtCab, id_cliente, secuencia);
             this.taEmp.Fill(dtEmpresa);
             dtAmb = taAmb.GetDataByCodigo(Convert.ToInt32(Configuraciones.Ambiente));
             dtTipoEmision = taTipoEmision.GetDataByCodigo(Convert.ToInt32(Configuraciones.TipoEmision));
@@ -64,7 +67,8 @@ namespace ReportUtilities.Reportes.Clases
             {
                 this.empresa = dtEmpresa[0];
             }
-            if (dtCab.Count > 0) {
+            if (dtCab.Count > 0)
+            {
                 this.Cabecera = dtCab[0];
                 this.PathExportFile = ReportUtilities.Tools.Configuraciones.RutaRepositorioLocal + "/" + id_cliente + "/" + dtCab[0].TIPO_DOC;
             }
@@ -72,7 +76,7 @@ namespace ReportUtilities.Reportes.Clases
 
         public List<Microsoft.Reporting.WinForms.ReportParameter> GetParameters()
         {
-            parameters= new List<Microsoft.Reporting.WinForms.ReportParameter>();
+            parameters = new List<Microsoft.Reporting.WinForms.ReportParameter>();
             if (dtCab.Rows.Count > 0)
             {
                 parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("ruc", empresa.ruc));
@@ -82,27 +86,35 @@ namespace ReportUtilities.Reportes.Clases
                 string fecha_autorizacion = "";
                 string clave_acceso = "";
 
-                if (dtDoc.Count > 0) {
+                if (dtDoc.Count > 0)
+                {
                     no_autorizacion = dtDoc[0].num_autoriza;
                     fecha_autorizacion = dtDoc[0].fecha_autoriza;
-                    clave_acceso=dtDoc[0].clave_acceso;
+                    clave_acceso = dtDoc[0].clave_acceso;
                 }
-                parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("no_autorizacion",no_autorizacion));
+                parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("no_autorizacion", no_autorizacion));
                 parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("fecha_autorizacion", fecha_autorizacion));
-                parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("clave_acceso",clave_acceso));
-
+                parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("clave_acceso", clave_acceso));
                 parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("ambiente", dtAmb[0].descripcion));
-                
-                parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("emision", "NORMAL"));
+                var tipo = taTipoEmision.GetDataByCodigo(Convert.ToInt32(Configuraciones.TipoEmision)).FirstOrDefault();
+                if (tipo != null)
+                {
+                    parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("emision", tipo.DESCRIPCION));
+                }
+                else
+                {
+                    parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("emision", "NORMAL"));
+                    Logs.WriteLog("Tipo de emision no configurado", "", true);
+                }
                 parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("identificacion", dtCab[0].ID_CLIENTE));
                 parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("razon_social", dtCab[0].RAZONS_CLIENTE));
                 parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("fecha_emision", dtCab[0].FECHA));
                 var comprobanteModifica = "";
                 if (!dtCab[0].IsNUM_COMP_MODIFICANull())
                 {
-                    comprobanteModifica=dtCab[0].NUM_COMP_MODIFICA;
+                    comprobanteModifica = dtCab[0].NUM_COMP_MODIFICA;
                 }
-                parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("guia_remision", comprobanteModifica));                
+                parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("guia_remision", comprobanteModifica));
                 parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("direccion_matriz", empresa.direccion));
                 parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("direccion_sucursal", ""));
                 parameters.Add(new Microsoft.Reporting.WinForms.ReportParameter("no_contribuyente", empresa.contEspecial));
@@ -163,12 +175,13 @@ namespace ReportUtilities.Reportes.Clases
 
         public byte[] imageToByteArray(System.Drawing.Image imageIn)
         {
-            if (imageIn != null) {
+            if (imageIn != null)
+            {
                 MemoryStream ms = new MemoryStream();
                 imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Gif);
                 return ms.ToArray();
             }
-            return new byte []{0};
+            return new byte[] { 0 };
         }
 
         public System.Drawing.Bitmap GenerarBarcode(string prodCode)
@@ -193,7 +206,8 @@ namespace ReportUtilities.Reportes.Clases
             return img;
         }
 
-        public void AgregarParametro(string key, string value) {
+        public void AgregarParametro(string key, string value)
+        {
             Parametros.Add(new Microsoft.Reporting.WinForms.ReportParameter(key, value));
         }
 
