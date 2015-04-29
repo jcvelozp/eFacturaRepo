@@ -154,11 +154,11 @@ Public Class basXML
             adapter.SelectCommand.Connection = con
             adapter.SelectCommand.CommandType = CommandType.Text
             cadena = "select c.secuencia, c.tipo_doc TIPO, c.establecimiento ESTABLECIMIENTO,  c.pto_emision PTO_EMISION,  c.num_doc NUMERO, fecha FECHA, c.id_cliente IDENTIFICACION, razons_cliente AGENTE, empresa EMPRESA, c.cod_cliente_int COD_CLIENTE_INT, (select clave_acceso from documentos s where s.sec_cab_doc=c.secuencia and s.tipo_doc=c.tipo_doc) CLAVEACCESO, "
-            cadena = cadena & " (select num_autoriza from documentos s where s.sec_cab_doc=c.secuencia and s.tipo_doc=c.tipo_doc) CLAVEAUTORIZACION  from cab_documento c where estado='A' and c.empresa='" & empresa & "'"
+            cadena = cadena & " (select num_autoriza from documentos s where s.sec_cab_doc=c.secuencia and s.tipo_doc=c.tipo_doc) CLAVEAUTORIZACION  from cab_documento c where estado='A' and c.empresa='" & empresa & "' "
             If tipodoc <> "" Then
                 cadena = cadena & " and c.tipo_doc='" & tipodoc & "'"
             End If
-            cadena = cadena & " order by c.tipo_doc"
+            cadena = cadena & " order by c.tipo_doc, fecha"
             adapter.SelectCommand.CommandText = cadena
 
             ds = New DataSet

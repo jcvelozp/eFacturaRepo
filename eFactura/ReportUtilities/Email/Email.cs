@@ -38,17 +38,17 @@ namespace ReportUtilities
         public string subject { get; set; }
         public string body { get; set; }
 
-        public bool Send()
+        public bool Send(string configuration="")
         {
             try
             {
-                password = Configuraciones.PasswordEmail;
+                password = Configuraciones.Get("PasswordEmail"+configuration);
                 var fromAddress = new MailAddress(from, Configuraciones.NombreEmailEmisor);
                 var smtp = new SmtpClient
                 {
-                    Host = Configuraciones.HostEmail,
-                    Port = Convert.ToInt32(Configuraciones.PuertoEmail),
-                    EnableSsl = Convert.ToBoolean(Configuraciones.HabilitarSSL),
+                    Host = Configuraciones.Get("HostEmail"+configuration),
+                    Port = Convert.ToInt32(Configuraciones.Get("PuertoEmail"+configuration)),
+                    EnableSsl = Convert.ToBoolean(Configuraciones.Get("HabilitarSSL" + configuration)),
                     DeliveryMethod = SmtpDeliveryMethod.Network,
                     UseDefaultCredentials = false,
                     Credentials = new NetworkCredential(from, password)

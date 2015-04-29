@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ed29e13f-888d-44b0-98ae-208beb313876" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="eafb3335-53d2-4861-8a6c-5b90c8ab4996" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,8 +22,8 @@
     <MetadataSource Address="http://localhost:8080/FacturacionElectronicaProxy/RecepcionComprobante?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="RecepcionComprobante.xsd" MetadataType="Schema" ID="49539d33-8b07-48e6-baf1-802f1b2d290c" SourceId="1" SourceUrl="http://localhost:8080/FacturacionElectronicaProxy/RecepcionComprobante?xsd=1" />
-    <MetadataFile FileName="RecepcionComprobante.wsdl" MetadataType="Wsdl" ID="9b000ba8-8975-40d9-9fed-ee53e4dafefe" SourceId="1" SourceUrl="http://localhost:8080/FacturacionElectronicaProxy/RecepcionComprobante?wsdl" />
+    <MetadataFile FileName="RecepcionComprobante.xsd" MetadataType="Schema" ID="74451f63-11c9-40f4-b631-975aac070676" SourceId="1" SourceUrl="http://localhost:8080/FacturacionElectronicaProxy/RecepcionComprobante?xsd=1" />
+    <MetadataFile FileName="RecepcionComprobante.wsdl" MetadataType="Wsdl" ID="2d031b6d-7705-4d53-b25d-479e0671ee21" SourceId="1" SourceUrl="http://localhost:8080/FacturacionElectronicaProxy/RecepcionComprobante?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

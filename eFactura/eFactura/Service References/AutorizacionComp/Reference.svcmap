@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="94bb69c7-cb59-43f0-bfa3-ffe3a1834885" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8e77adf3-9663-43db-b6d1-b1da61e1dd07" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,8 +22,8 @@
     <MetadataSource Address="http://localhost:8080/FacturacionElectronicaProxy/AutorizacionComprobante?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="AutorizacionComprobante.xsd" MetadataType="Schema" ID="4d573b9e-b238-4298-aea0-1966d200e96b" SourceId="1" SourceUrl="http://localhost:8080/FacturacionElectronicaProxy/AutorizacionComprobante?xsd=1" />
-    <MetadataFile FileName="AutorizacionComprobante.wsdl" MetadataType="Wsdl" ID="3124388a-3c51-4c54-9ac5-ca9d2ad0d371" SourceId="1" SourceUrl="http://localhost:8080/FacturacionElectronicaProxy/AutorizacionComprobante?wsdl" />
+    <MetadataFile FileName="AutorizacionComprobante.xsd" MetadataType="Schema" ID="88db84d8-0d95-4183-842f-f969add22424" SourceId="1" SourceUrl="http://localhost:8080/FacturacionElectronicaProxy/AutorizacionComprobante?xsd=1" />
+    <MetadataFile FileName="AutorizacionComprobante.wsdl" MetadataType="Wsdl" ID="060d5d13-ee58-4ce3-8174-aadd0b1457db" SourceId="1" SourceUrl="http://localhost:8080/FacturacionElectronicaProxy/AutorizacionComprobante?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

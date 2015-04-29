@@ -1155,14 +1155,27 @@ Public Class frmControlDoc
                 Else
 
                     If emision = 1 Then 'NORMAL o CONTINGENCIA
-                        If recepcionDocumentos(vRuta, sClaveAcc, secuencia, tipodoc, sigla, num_doc, emision) Then
-                            If cls.insertarDocumento(secuencia, tipodoc, codClienteInt, nombreArchivo, strAu, sClaveAcc, rucCliente, emision) Then
-                                If autorizaDocumentos(sClaveAcc, secuencia, tipodoc, sigla, num_doc, vRutaAu, emision) Then
-                                    If generarRide(rucCliente, secuencia, tipodoc, sigla, num_doc) Then
-                                        If enviarDocumentoMail(secuencia, tipodoc, rucCliente, sigla, num_doc, nombreCliente) Then
+                        If clave <> "" Then
+                            If autorizaDocumentos(sClaveAcc, secuencia, tipodoc, sigla, num_doc, vRutaAu, emision) Then
+                                If generarRide(rucCliente, secuencia, tipodoc, sigla, num_doc) Then
+                                    If enviarDocumentoMail(secuencia, tipodoc, rucCliente, sigla, num_doc, nombreCliente) Then
 
-                                        Else
-                                            Alerta("Correo Electronico no ha sido enviado al cliente " & rucCliente & " " & nombreCliente & " secuencia:" & secuencia & " y tipo de documento:" & tipodoc)
+                                    Else
+                                        Alerta("Correo Electronico no ha sido enviado al cliente " & rucCliente & " " & nombreCliente & " secuencia:" & secuencia & " y tipo de documento:" & tipodoc)
+                                    End If
+                                End If
+                            End If
+                        Else
+                            If cls.insertarDocumento(secuencia, tipodoc, codClienteInt, nombreArchivo, strAu, sClaveAcc, rucCliente, emision) Then
+
+                                If recepcionDocumentos(vRuta, sClaveAcc, secuencia, tipodoc, sigla, num_doc, emision) Then
+                                    If autorizaDocumentos(sClaveAcc, secuencia, tipodoc, sigla, num_doc, vRutaAu, emision) Then
+                                        If generarRide(rucCliente, secuencia, tipodoc, sigla, num_doc) Then
+                                            If enviarDocumentoMail(secuencia, tipodoc, rucCliente, sigla, num_doc, nombreCliente) Then
+
+                                            Else
+                                                Alerta("Correo Electronico no ha sido enviado al cliente " & rucCliente & " " & nombreCliente & " secuencia:" & secuencia & " y tipo de documento:" & tipodoc)
+                                            End If
                                         End If
                                     End If
                                 End If
@@ -1179,7 +1192,7 @@ Public Class frmControlDoc
                             End If
                         End If
                     End If
-                End If
+                    End If
             Else
                 Alerta("Documento con secuencia:" & secuencia & " y tipo de documento:" & tipodoc & ", ya se encuentra autorizado")
             End If
@@ -1428,6 +1441,7 @@ Public Class frmControlDoc
             Dim ds As New DataSet
             sb.AppendLine(interfaz.PlantillaRIDE(nombreCliente, num_doc))
             Dim correos As New List(Of String)
+            Dim correos2 As New List(Of String)
             correos = interfaz.GetCorreosPorCedulaRUC(rucCliente)
             'correos.Add("factura@e-tractomaq.com")
             ds = cls.consultaMailTipoDoc(tipodoc)
@@ -1435,12 +1449,27 @@ Public Class frmControlDoc
                 correos.Add(ds.Tables(0).Rows(i).Item("mail").ToString)
             Next
 
+            For Each item As String In correos
+                If item.ToLower.Trim.Contains("hotmail") Then
+                    correos2.Add(item)
+                End If
+            Next
+
+            For Each item As String In correos2
+                correos.Remove(item)
+            Next
+
             Dim archivos As New List(Of String)
             archivos.Add(interfaz.RepositorioLocal(rucCliente, tipodoc) & "\" & sigla & "_" & num_doc & ".pdf")
             If Configuraciones.Get("TipoEmision") = 1 Then 'NORMAL o CONTINGENCIA
                 archivos.Add(interfaz.RepositorioLocal(rucCliente, tipodoc) & "\" & sigla & "_" & num_doc & "_au.xml")
             End If
+
             interfaz.EnviarCorreo("Notificación Documento Electrónico TRACTOMAQ - :" & sigla & "_" & num_doc, sb.ToString, ReportUtilities.Tools.Configuraciones.UsuarioEmail, correos, archivos)
+            If (correos2.Count > 0) Then
+                interfaz.EnviarPorCorreoSecundario("Notificación Documento Electrónico TRACTOMAQ - :" & sigla & "_" & num_doc, sb.ToString, ReportUtilities.Tools.Configuraciones.UsuarioEmail2, correos2, archivos)
+            End If
+
             bRetorna = True
 
             For i = 0 To correos.Count - 1

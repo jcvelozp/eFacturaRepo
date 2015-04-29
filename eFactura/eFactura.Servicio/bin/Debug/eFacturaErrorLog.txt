@@ -19126,3 +19126,80 @@ File name: 'C:\SRI\eFacturaRepo\eFactura\eFactura.Servicio\bin\Debug\db.xml'
 
 MORE INFO:
 
+***************************************************************************************
+ERROR DATE:  29/04/2015 10:58:57
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+Value cannot be null.
+Parameter name: value
+
+ERROR MESSAGE (DEVELOPER):
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at ReportUtilities.Email.Send(String configuration) in c:\SRI\eFacturaRepo\eFactura\ReportUtilities\Email\Email.cs:line 47
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  29/04/2015 11:02:29
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+The operation has timed out.
+
+ERROR MESSAGE (DEVELOPER):
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ReportUtilities.Email.Send(String configuration) in c:\SRI\eFacturaRepo\eFactura\ReportUtilities\Email\Email.cs:line 74
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  29/04/2015 11:07:05
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+The operation has timed out.
+
+ERROR MESSAGE (DEVELOPER):
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ReportUtilities.Email.Send(String configuration) in c:\SRI\eFacturaRepo\eFactura\ReportUtilities\Email\Email.cs:line 74
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  29/04/2015 11:11:44
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+The operation has timed out.
+
+ERROR MESSAGE (DEVELOPER):
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ReportUtilities.Email.Send(String configuration)
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  29/04/2015 11:14:37
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  System
+ERROR MESSAGE (USER):
+The operation has timed out.
+
+ERROR MESSAGE (DEVELOPER):
+System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ReportUtilities.Email.Send(String configuration)
+
+MORE INFO:
+

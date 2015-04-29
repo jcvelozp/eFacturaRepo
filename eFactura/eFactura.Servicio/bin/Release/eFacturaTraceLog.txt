@@ -11242,3 +11242,1893 @@ MESSAGE:Documento con secuencia:297093 y tipo de documento:07, DEVUELTO
 ***************************************************************************************
 DATE:  31/03/2015 8:13:22
 MESSAGE:Documento con secuencia:297093 y tipo de documento:07, DEVUELTO
+***************************************************************************************
+DATE:  08/04/2015 13:28:28
+MESSAGE:Documento con secuencia:114751 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  08/04/2015 13:31:59
+MESSAGE:Documento con secuencia:114751 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 11:45:07
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 11:49:47
+MESSAGE:Documento con secuencia:299959 y tipo de documento:07, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 11:50:03
+MESSAGE:Documento con secuencia:299960 y tipo de documento:07, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 11:50:22
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 11:54:34
+MESSAGE:Documento con secuencia:299959 y tipo de documento:07, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 11:54:53
+MESSAGE:Documento con secuencia:299960 y tipo de documento:07, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 15:28:19
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:13:28
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:28:51
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:38:46
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:40:23
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:41:06
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:41:29
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:41:50
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:42:11
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:48:29
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:49:58
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:50:22
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:50:56
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:51:45
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:52:20
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:53:43
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:54:12
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:54:33
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:55:08
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:55:31
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:55:53
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:56:16
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:56:36
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:57:01
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:57:28
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:59:10
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 16:59:35
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:00:00
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:00:22
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:00:43
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:01:07
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:01:29
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:01:49
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:02:09
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:05:17
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:06:46
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:07:15
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:07:42
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:16:20
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:27:03
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:39:16
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:51:09
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:53:46
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:54:17
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:54:46
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:55:10
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:55:32
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:55:54
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:56:18
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:56:42
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:57:05
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:57:30
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:57:54
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:58:15
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:58:36
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:59:03
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:59:24
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 17:59:52
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:00:18
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:00:54
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:01:38
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:02:25
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:03:43
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:04:08
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:04:31
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:04:51
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:05:13
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:05:33
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:05:54
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:06:15
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:06:41
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:07:09
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:07:33
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:13:19
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:16:52
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:17:18
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:17:44
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:18:08
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:18:30
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:18:50
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:19:10
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:19:30
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:19:50
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:20:09
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:20:28
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:20:48
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:21:08
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:21:28
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:21:52
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:22:13
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:22:35
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:22:53
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:23:15
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:23:30
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:23:50
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:24:05
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:24:24
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:24:38
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:24:58
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:25:13
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:25:37
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:25:55
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:26:21
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:26:37
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:26:56
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:27:10
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:27:31
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:27:45
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:28:05
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:28:19
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:28:38
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:28:53
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:29:13
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:29:28
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:29:50
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:30:04
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:30:25
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:30:39
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:30:58
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:31:13
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:31:33
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:31:48
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:32:23
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:32:52
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:34:14
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 18:35:27
+MESSAGE:Documento con secuencia:1003372 y tipo de documento:06, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:32:03
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:32:34
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:33:03
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:33:21
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:33:41
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:34:01
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:34:20
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:34:40
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:35:00
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:35:19
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:35:39
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:35:58
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:36:18
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:36:37
+MESSAGE:Documento con secuencia:115053 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  14/04/2015 22:42:15
+MESSAGE:Se esta intentando subir el documento pero no existe el archivo:C:\wamp\www\etractomaq\docs\0391012547001\01\/FAC_000002445.pdf
+***************************************************************************************
+DATE:  16/04/2015 15:49:28
+MESSAGE:Documento con secuencia:4603 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  16/04/2015 15:53:18
+MESSAGE:Documento con secuencia:4604 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  16/04/2015 16:37:51
+MESSAGE:Documento con secuencia:4604 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  16/04/2015 16:55:40
+MESSAGE:Documento con secuencia:4608 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  16/04/2015 17:26:09
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 17:28:49
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:03:34
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:05:55
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:20:29
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:20:47
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:21:22
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:21:36
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:22:08
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:22:22
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:22:55
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:23:09
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:23:41
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:24:02
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:24:50
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:25:09
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:25:42
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:25:56
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:26:27
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:26:41
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:27:13
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:27:27
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:27:59
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:28:13
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:28:49
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:29:06
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:29:44
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:29:59
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:30:31
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:30:46
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:31:17
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:31:31
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:32:04
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:32:18
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:32:50
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:33:04
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:34:03
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:34:24
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:34:58
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:35:17
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:35:49
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:36:06
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:36:39
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:36:58
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:37:32
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:37:48
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:38:26
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:38:45
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:39:51
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:40:06
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:40:45
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:41:00
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:41:33
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:41:47
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:42:19
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:42:33
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:43:12
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:43:31
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:44:08
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:44:22
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:45:18
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:45:43
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:46:17
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:46:31
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:47:02
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:47:18
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:47:52
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:48:07
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:48:38
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:48:52
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:49:24
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:49:39
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:50:13
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:50:27
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:50:59
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:51:13
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:51:45
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:51:59
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:52:31
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:52:45
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:53:17
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:53:31
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:54:02
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:54:16
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:54:49
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:55:03
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:55:35
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:55:49
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:56:21
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:56:34
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:57:07
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:57:20
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:57:52
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:58:06
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:58:38
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:58:52
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:59:24
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 18:59:38
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:00:10
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:00:24
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:00:56
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:01:10
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:01:42
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:01:56
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:02:30
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:02:44
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:03:15
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:03:29
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:04:02
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:04:16
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:04:51
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:05:05
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:05:38
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:05:52
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:06:25
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:06:39
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:07:28
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:07:42
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:08:15
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:08:28
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:09:00
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:09:14
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:09:47
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:10:01
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:10:36
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:10:51
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:11:23
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:11:37
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:12:10
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:12:24
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:12:57
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:13:11
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:13:42
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:13:55
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:14:27
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:14:42
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:15:14
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:15:28
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:16:00
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:16:14
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:16:47
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:17:01
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:17:35
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:17:49
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:18:21
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:18:35
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:19:06
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:19:19
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:19:53
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:20:07
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:20:40
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:20:54
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:21:29
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:21:43
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:22:15
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:22:30
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:23:02
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:23:15
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:23:47
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:24:03
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:24:35
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:24:50
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:25:24
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:25:38
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:26:11
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:26:24
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:26:57
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:27:13
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:27:45
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:27:59
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:28:32
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:28:46
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:29:19
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:29:33
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:30:06
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:30:20
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:30:55
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:31:10
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:31:42
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:31:56
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:32:29
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:32:42
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:33:15
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:33:29
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:34:00
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:34:14
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:34:47
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:35:00
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:35:32
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:35:46
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:36:18
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:36:32
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:37:04
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:37:18
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:37:51
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:38:05
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:38:36
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:38:50
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:39:22
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:39:36
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:40:07
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:40:23
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:40:56
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:41:09
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:41:42
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:41:56
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:42:29
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:42:43
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:43:15
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:43:28
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:44:00
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:44:14
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:44:46
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:44:59
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:45:33
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:45:47
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:46:19
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:46:33
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:47:04
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:47:18
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:47:51
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:48:07
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:48:41
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:48:56
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:49:28
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:49:43
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:50:16
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:50:31
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:51:03
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:51:18
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:51:51
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:52:05
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:52:40
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:52:55
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:53:29
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:53:44
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:54:16
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:54:31
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:55:02
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:55:16
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:55:48
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:56:02
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:56:34
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:56:49
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:57:20
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:57:35
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:58:06
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:58:20
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:58:53
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:59:07
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:59:39
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 19:59:53
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:00:24
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:00:39
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:01:11
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:01:25
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:01:56
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:02:10
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:02:42
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:02:56
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:03:27
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:03:41
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:04:13
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:04:27
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:04:59
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:05:13
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:05:45
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:05:59
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:06:30
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:06:43
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:07:15
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:07:29
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:08:00
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:08:13
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:08:48
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:09:03
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:09:35
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:09:50
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:10:23
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:10:37
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:11:10
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:11:25
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:11:57
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:12:12
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:12:44
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:12:58
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:13:31
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:13:45
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:14:17
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:14:33
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:15:06
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:15:21
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:15:53
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:16:07
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:16:40
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:16:54
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:17:27
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:17:42
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:18:16
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:18:43
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:19:15
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:19:29
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:20:00
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:20:14
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:20:45
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:20:59
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:21:31
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:21:45
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:22:16
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:22:30
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:23:01
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:23:15
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:23:46
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:24:00
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:24:32
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:24:46
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:25:30
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:25:44
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:26:16
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:26:29
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:27:06
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:27:21
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:27:55
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:28:08
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:28:42
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:28:56
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:29:28
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:29:42
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:30:14
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:30:27
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:30:59
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:31:13
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:31:44
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:31:58
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:32:31
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:32:45
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:33:17
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:33:33
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:34:05
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:34:19
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:34:53
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:35:07
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:35:39
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:35:55
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:36:27
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:36:41
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:37:14
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:37:27
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:38:02
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:38:16
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:38:49
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:39:03
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:39:38
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:39:52
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:40:23
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:40:37
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:41:09
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:41:23
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:41:54
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:42:12
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:42:49
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:43:03
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:43:35
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:43:49
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:44:21
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:44:35
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:45:07
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:45:24
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:45:56
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:46:10
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:46:42
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:46:56
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:47:28
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:47:42
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:48:29
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:49:05
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:50:08
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:50:35
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:51:49
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:52:22
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:53:44
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:54:53
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:57:31
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 20:59:29
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:03:07
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:04:38
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:05:25
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:05:39
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:06:11
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:06:30
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:07:03
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:07:23
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:08:13
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:08:43
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:09:16
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:09:30
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:10:02
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:10:16
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:10:48
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:11:02
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:11:42
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:12:08
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:13:08
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:13:23
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:13:59
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:14:34
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:15:17
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:16:28
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:17:26
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:18:17
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:19:55
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:20:21
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:20:56
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:21:19
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:21:58
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:22:12
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:22:49
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:23:07
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:24:19
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:24:33
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:25:05
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:25:20
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:25:53
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:26:08
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:27:00
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:27:40
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:28:31
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:28:45
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:29:31
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:29:48
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:30:20
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:30:35
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:31:07
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:31:24
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:32:03
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:32:21
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:33:07
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:33:26
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:34:08
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:34:23
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:35:12
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:35:28
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:36:00
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:36:14
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:36:46
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:37:00
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:37:31
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:37:45
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:38:24
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:39:46
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:41:22
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:41:56
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:42:29
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:42:43
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:43:16
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:43:31
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:44:02
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:44:16
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:44:51
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:45:05
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:45:38
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:46:20
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:48:39
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 21:51:32
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 22:05:42
+MESSAGE:Secuencia de Documento:115352 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 22:59:48
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 23:03:50
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  16/04/2015 23:09:17
+MESSAGE:Secuencia de Documento:115318 Tipo de Documento:04 no fue autorizado
+***************************************************************************************
+DATE:  20/04/2015 16:21:30
+MESSAGE:Documento con secuencia:4639 y tipo de documento:01, DEVUELTO
+***************************************************************************************
+DATE:  22/04/2015 11:10:43
+MESSAGE:Documento con secuencia:115647 y tipo de documento:04, DEVUELTO
+***************************************************************************************
+DATE:  23/04/2015 10:04:47
+MESSAGE:Documento con secuencia:115721 y tipo de documento:04, DEVUELTO
+***************************************************************************************
+DATE:  23/04/2015 11:12:19
+MESSAGE:Documento con secuencia:4701 y tipo de documento:04, DEVUELTO
+***************************************************************************************
+DATE:  23/04/2015 11:20:17
+MESSAGE:Documento con secuencia:115732 y tipo de documento:04, DEVUELTO
+***************************************************************************************
+DATE:  23/04/2015 13:40:14
+MESSAGE:Documento con secuencia:115732 y tipo de documento:04, DEVUELTO
+***************************************************************************************
+DATE:  23/04/2015 16:23:03
+MESSAGE:Documento con secuencia:115732 y tipo de documento:04, DEVUELTO
+***************************************************************************************
+DATE:  23/04/2015 16:33:51
+MESSAGE:Documento con secuencia:115732 y tipo de documento:04, DEVUELTO
+***************************************************************************************
+DATE:  24/04/2015 16:41:48
+MESSAGE:Documento con secuencia:115846 y tipo de documento:04, DEVUELTO

@@ -123,6 +123,13 @@ namespace ReportUtilities
             chbHabilitarSSL.Checked = Convert.ToBoolean(Configuraciones.HabilitarSSL);
             txtNombreEmailEmisor.Text = Configuraciones.NombreEmailEmisor;
 
+            /*Configuracion Email Secundario*/
+            txtUsuario2.Text = Configuraciones.UsuarioEmail2;
+            txtPassword2.Text = Configuraciones.PasswordEmail2;
+            txtHost2.Text = Configuraciones.HostEmail2;
+            txtPuerto2.Text = Configuraciones.PuertoEmail2;
+            chkSSL2.Checked = Convert.ToBoolean(Configuraciones.HabilitarSSL2);            
+            /*****/
             cbAmbiente.SelectedValue = Configuraciones.Ambiente;
             cbTipoEmision.SelectedValue = Configuraciones.TipoEmision;
         }
@@ -142,6 +149,13 @@ namespace ReportUtilities
             Configuraciones.PuertoEmail = txtPuertoEmail.Text;
             Configuraciones.HabilitarSSL = chbHabilitarSSL.Checked.ToString();
             Configuraciones.NombreEmailEmisor = txtNombreEmailEmisor.Text;
+
+            Configuraciones.UsuarioEmail2 = txtUsuario2.Text;
+            Configuraciones.PasswordEmail2 = txtPassword2.Text;
+            Configuraciones.HostEmail2 = txtHost2.Text;
+            Configuraciones.PuertoEmail2 = txtPuerto2.Text;
+            Configuraciones.HabilitarSSL2 = chkSSL2.Checked.ToString();
+            
 
             Configuraciones.Ambiente=Convert.ToDecimal(cbAmbiente.SelectedValue);
             Configuraciones.TipoEmision=Convert.ToDecimal(cbTipoEmision.SelectedValue);
@@ -329,6 +343,27 @@ namespace ReportUtilities
             if (String.IsNullOrEmpty(txtNombreRIDE.Text))
             {
                 txtNombreRIDE.Text = txtNumDoc.Text;
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Interfaz i = new Interfaz();
+            List<string> correos = new List<string>();
+            correos.Add(txtFrom.Text);
+            string mensaje = txtBody.Text;
+            i.EnviarPorCorreoSecundario(txtSubject.Text, mensaje, txtUsuario2.Text, correos);
+        }
+
+        private void chkSSL2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkSSL2.Checked)
+            {
+                chkSSL2.Text = "Si";
+            }
+            else
+            {
+                chkSSL2.Text = "No";
             }
         }
 

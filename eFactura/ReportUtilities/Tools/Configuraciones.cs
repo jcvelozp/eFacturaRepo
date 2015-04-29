@@ -16,7 +16,16 @@ namespace ReportUtilities.Tools
 
         public static String Get(string clave)
         {
-            return ta.GetValue(clave);
+            try
+            {
+                return ta.GetValue(clave);
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.ToString());
+                Logs.WriteErrorLog(ex, "Clave:" + clave, true);
+                throw;
+            }            
         }
 
         public static void Set(string clave, string valor)
@@ -175,6 +184,68 @@ namespace ReportUtilities.Tools
             set
             {
                 Set("HabilitarSSL", value);
+            }
+        }
+
+        /*Correo Secundario*/
+
+        public static string HostEmail2
+        {
+            get
+            {
+                return Get("HostEmail2");
+            }
+            set
+            {
+                Set("HostEmail2", value);
+            }
+        }
+
+        public static string UsuarioEmail2
+        {
+            get
+            {
+                return Get("UsuarioEmail2");
+            }
+            set
+            {
+                Set("UsuarioEmail2", value);
+            }
+        }
+
+        public static string PasswordEmail2
+        {
+            get
+            {
+                return Get("PasswordEmail2");
+            }
+            set
+            {
+                Set("PasswordEmail2", value);
+            }
+        }
+
+        public static string PuertoEmail2
+        {
+            get
+            {
+                return Get("PuertoEmail2");
+            }
+            set
+            {
+                Set("PuertoEmail2", value);
+            }
+        }
+
+        public static string HabilitarSSL2
+        {
+            get
+            {
+                return Get("HabilitarSSL2");
+            }
+            set
+            {
+                Set("HabilitarSSL2", value);
             }
         }
 

@@ -41,6 +41,7 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.txtSecuencia = new System.Windows.Forms.TextBox();
+            this.txtNombreRIDE = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label14 = new System.Windows.Forms.Label();
             this.txtPuertoFTP = new System.Windows.Forms.TextBox();
@@ -56,6 +57,7 @@
             this.txtRepositorioLocal = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label45 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -152,8 +154,18 @@
             this.txtNotificacionCambioMensaje = new System.Windows.Forms.RichTextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.txtNombreRIDE = new System.Windows.Forms.TextBox();
-            this.label45 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.chkSSL2 = new System.Windows.Forms.CheckBox();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.txtPuerto2 = new System.Windows.Forms.TextBox();
+            this.txtPassword2 = new System.Windows.Forms.TextBox();
+            this.txtUsuario2 = new System.Windows.Forms.TextBox();
+            this.txtHost2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -168,6 +180,7 @@
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage8.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnGenerarPDF
@@ -263,6 +276,14 @@
             this.txtSecuencia.TabIndex = 15;
             this.toolTip1.SetToolTip(this.txtSecuencia, "Número de factura, nota de venta, etc.");
             this.txtSecuencia.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSecuencia_KeyDown);
+            // 
+            // txtNombreRIDE
+            // 
+            this.txtNombreRIDE.Location = new System.Drawing.Point(147, 158);
+            this.txtNombreRIDE.Name = "txtNombreRIDE";
+            this.txtNombreRIDE.Size = new System.Drawing.Size(163, 20);
+            this.txtNombreRIDE.TabIndex = 15;
+            this.toolTip1.SetToolTip(this.txtNombreRIDE, "Número de factura, nota de venta, etc.");
             // 
             // groupBox1
             // 
@@ -415,6 +436,15 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "  Pruebas";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(12, 162);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(91, 13);
+            this.label45.TabIndex = 14;
+            this.label45.Text = "Nombre de RIDE:";
             // 
             // textBox4
             // 
@@ -593,6 +623,8 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.Controls.Add(this.groupBox5);
             this.tabPage3.Controls.Add(this.button2);
             this.tabPage3.Controls.Add(this.label17);
             this.tabPage3.Controls.Add(this.label16);
@@ -613,7 +645,7 @@
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button2.Location = new System.Drawing.Point(381, 403);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(182, 23);
+            this.button2.Size = new System.Drawing.Size(135, 23);
             this.button2.TabIndex = 17;
             this.button2.Text = "Enviar Correo de Prueba";
             this.button2.UseVisualStyleBackColor = true;
@@ -1398,22 +1430,119 @@
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
-            // txtNombreRIDE
+            // groupBox5
             // 
-            this.txtNombreRIDE.Location = new System.Drawing.Point(147, 158);
-            this.txtNombreRIDE.Name = "txtNombreRIDE";
-            this.txtNombreRIDE.Size = new System.Drawing.Size(163, 20);
-            this.txtNombreRIDE.TabIndex = 15;
-            this.toolTip1.SetToolTip(this.txtNombreRIDE, "Número de factura, nota de venta, etc.");
+            this.groupBox5.Controls.Add(this.label47);
+            this.groupBox5.Controls.Add(this.chkSSL2);
+            this.groupBox5.Controls.Add(this.label48);
+            this.groupBox5.Controls.Add(this.label49);
+            this.groupBox5.Controls.Add(this.label50);
+            this.groupBox5.Controls.Add(this.label51);
+            this.groupBox5.Controls.Add(this.txtPuerto2);
+            this.groupBox5.Controls.Add(this.txtPassword2);
+            this.groupBox5.Controls.Add(this.txtUsuario2);
+            this.groupBox5.Controls.Add(this.txtHost2);
+            this.groupBox5.Location = new System.Drawing.Point(13, 211);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(342, 146);
+            this.groupBox5.TabIndex = 18;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Informacion cuenta Email Secundario";
             // 
-            // label45
+            // label47
             // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(12, 162);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(91, 13);
-            this.label45.TabIndex = 14;
-            this.label45.Text = "Nombre de RIDE:";
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(12, 121);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(71, 13);
+            this.label47.TabIndex = 9;
+            this.label47.Text = "Habilitar SSL:";
+            // 
+            // chkSSL2
+            // 
+            this.chkSSL2.AutoSize = true;
+            this.chkSSL2.Location = new System.Drawing.Point(129, 119);
+            this.chkSSL2.Name = "chkSSL2";
+            this.chkSSL2.Size = new System.Drawing.Size(40, 17);
+            this.chkSSL2.TabIndex = 8;
+            this.chkSSL2.Text = "No";
+            this.chkSSL2.UseVisualStyleBackColor = true;
+            this.chkSSL2.CheckedChanged += new System.EventHandler(this.chkSSL2_CheckedChanged);
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(12, 98);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(41, 13);
+            this.label48.TabIndex = 7;
+            this.label48.Text = "Puerto:";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(12, 75);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(56, 13);
+            this.label49.TabIndex = 6;
+            this.label49.Text = "Password:";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(12, 53);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(46, 13);
+            this.label50.TabIndex = 5;
+            this.label50.Text = "Usuario:";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(12, 31);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(32, 13);
+            this.label51.TabIndex = 4;
+            this.label51.Text = "Host:";
+            // 
+            // txtPuerto2
+            // 
+            this.txtPuerto2.Location = new System.Drawing.Point(129, 95);
+            this.txtPuerto2.Name = "txtPuerto2";
+            this.txtPuerto2.Size = new System.Drawing.Size(192, 20);
+            this.txtPuerto2.TabIndex = 3;
+            // 
+            // txtPassword2
+            // 
+            this.txtPassword2.Location = new System.Drawing.Point(129, 72);
+            this.txtPassword2.Name = "txtPassword2";
+            this.txtPassword2.Size = new System.Drawing.Size(192, 20);
+            this.txtPassword2.TabIndex = 2;
+            // 
+            // txtUsuario2
+            // 
+            this.txtUsuario2.Location = new System.Drawing.Point(129, 50);
+            this.txtUsuario2.Name = "txtUsuario2";
+            this.txtUsuario2.Size = new System.Drawing.Size(192, 20);
+            this.txtUsuario2.TabIndex = 1;
+            // 
+            // txtHost2
+            // 
+            this.txtHost2.Location = new System.Drawing.Point(129, 28);
+            this.txtHost2.Name = "txtHost2";
+            this.txtHost2.Size = new System.Drawing.Size(192, 20);
+            this.txtHost2.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.Location = new System.Drawing.Point(522, 403);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(230, 23);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Enviar Correo de Prueba (Secundario)";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // FrmConfiguraciones
             // 
@@ -1451,6 +1580,8 @@
             this.tabPage6.PerformLayout();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1582,6 +1713,18 @@
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.TextBox txtNombreRIDE;
         private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.CheckBox chkSSL2;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.TextBox txtPuerto2;
+        private System.Windows.Forms.TextBox txtPassword2;
+        private System.Windows.Forms.TextBox txtUsuario2;
+        private System.Windows.Forms.TextBox txtHost2;
+        private System.Windows.Forms.Button button1;
     }
 }
 

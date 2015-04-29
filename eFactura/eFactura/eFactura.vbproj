@@ -188,20 +188,18 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ReportUtilities.Core\ReportUtilities.Core.vbproj">
+      <Project>{900a3cf3-802f-4885-aacd-05499e9f5930}</Project>
+      <Name>ReportUtilities.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReportUtilities\ReportUtilities.csproj">
+      <Project>{09cd4053-f559-4d53-b94a-ef8bca47b008}</Project>
+      <Name>ReportUtilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <WCFMetadataStorage Include="Service References\AutorizacionComp\" />
     <WCFMetadataStorage Include="Service References\RecepcionComp\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\AutorizacionComp\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\AutorizacionComp\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\AutorizacionComp\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.vb</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\RecepcionComp\configuration91.svcinfo" />
@@ -216,14 +214,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ReportUtilities.Core\ReportUtilities.Core.vbproj">
-      <Project>{900a3cf3-802f-4885-aacd-05499e9f5930}</Project>
-      <Name>ReportUtilities.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ReportUtilities\ReportUtilities.csproj">
-      <Project>{09cd4053-f559-4d53-b94a-ef8bca47b008}</Project>
-      <Name>ReportUtilities</Name>
-    </ProjectReference>
+    <None Include="Service References\AutorizacionComp\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AutorizacionComp\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AutorizacionComp\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

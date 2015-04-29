@@ -93,6 +93,15 @@ namespace ReportUtilities
             Configuraciones.HabilitarSSL = EnableSsl.ToString();
         }
 
+        public void ConfigurarServicioCorreoSecundario(string user, string password, string host = "smtp.gmail.com", int port = 587, bool EnableSsl = true)
+        {
+            Configuraciones.UsuarioEmail2 = user;
+            Configuraciones.PasswordEmail2 = password;
+            Configuraciones.HostEmail2 = host;
+            Configuraciones.PuertoEmail2 = port.ToString();
+            Configuraciones.HabilitarSSL2 = EnableSsl.ToString();
+        }
+
         public bool EnviarCorreo(string subject, string body, string fromAddress, List<string> correos, List<string> archivos = null)
         {
             Email email = new Email();
@@ -102,6 +111,17 @@ namespace ReportUtilities
             email.subject = subject;
             email.body = body;
             return email.Send();
+        }
+
+        public bool EnviarPorCorreoSecundario(string subject, string body, string fromAddress, List<string> correos, List<string> archivos = null)
+        {
+            Email email = new Email();
+            email.from = fromAddress;
+            email.toAddress = correos;
+            email.Archivos = archivos;
+            email.subject = subject;
+            email.body = body;
+            return email.Send("2");
         }
 
         public string PlantillaRIDE(string NombreCliente, string NumeroDocumento, string InformacionEmpresa = "")

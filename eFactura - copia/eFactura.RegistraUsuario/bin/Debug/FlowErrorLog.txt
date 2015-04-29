@@ -1,0 +1,76 @@
+***************************************************************************************
+ERROR DATE:  03/01/2015 17:57:39
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  Microsoft.VisualBasic
+ERROR MESSAGE (USER):
+Conversion from string "Se envio el correo electronico a" to type 'Double' is not valid.
+
+ERROR MESSAGE (DEVELOPER):
+System.InvalidCastException: Conversion from string "Se envio el correo electronico a" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at eFactura.RegistraUsuario.Registrar.Main(String[] args) in C:\SRI\eFactura\eFactura.RegistraUsuario\Registrar.vb:line 15
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  03/01/2015 19:31:18
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  Microsoft.VisualBasic
+ERROR MESSAGE (USER):
+Conversion from string "Se envio el correo electronico a" to type 'Double' is not valid.
+
+ERROR MESSAGE (DEVELOPER):
+System.InvalidCastException: Conversion from string "Se envio el correo electronico a" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at eFactura.RegistraUsuario.Registrar.Main(String[] args) in C:\SRI\eFactura\eFactura.RegistraUsuario\Registrar.vb:line 15
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  03/01/2015 19:33:25
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  Microsoft.VisualBasic
+ERROR MESSAGE (USER):
+Conversion from string "Se envio el correo electronico a" to type 'Double' is not valid.
+
+ERROR MESSAGE (DEVELOPER):
+System.InvalidCastException: Conversion from string "Se envio el correo electronico a" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at eFactura.RegistraUsuario.Registrar.Main(String[] args) in C:\SRI\eFactura\eFactura.RegistraUsuario\Registrar.vb:line 15
+
+MORE INFO:
+
+***************************************************************************************
+ERROR DATE:  03/01/2015 19:34:00
+WINDOWS USERNAME/USERDOMAINNAME:admin/SISTEMAS01
+MACHINENAME:SISTEMAS01
+LOCATION:  Microsoft.VisualBasic
+ERROR MESSAGE (USER):
+Conversion from string "Se envio el correo electronico a" to type 'Double' is not valid.
+
+ERROR MESSAGE (DEVELOPER):
+System.InvalidCastException: Conversion from string "Se envio el correo electronico a" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at eFactura.RegistraUsuario.Registrar.Main(String[] args) in C:\SRI\eFactura\eFactura.RegistraUsuario\Registrar.vb:line 15
+
+MORE INFO:
+
